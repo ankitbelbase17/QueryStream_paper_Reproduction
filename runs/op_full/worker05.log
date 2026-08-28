@@ -1,0 +1,49 @@
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 6/12: 105 videos, 206 samples
+[resume] 155 samples already in /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard05.jsonl
+[todo] 27 videos still to run (51 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   5%|▌         | 39/729 [00:00<00:02, 334.71it/s]Loading weights:  10%|█         | 75/729 [00:00<00:01, 338.33it/s]Loading weights:  17%|█▋        | 126/729 [00:00<00:01, 412.16it/s]Loading weights:  23%|██▎       | 168/729 [00:00<00:01, 343.73it/s]Loading weights:  28%|██▊       | 204/729 [00:00<00:01, 303.25it/s]Loading weights:  32%|███▏      | 236/729 [00:00<00:02, 181.23it/s]Loading weights:  37%|███▋      | 269/729 [00:01<00:02, 204.17it/s]Loading weights:  40%|████      | 295/729 [00:01<00:02, 157.51it/s]Loading weights:  43%|████▎     | 316/729 [00:01<00:02, 143.72it/s]Loading weights:  51%|█████▏    | 375/729 [00:01<00:01, 223.63it/s]Loading weights:  60%|██████    | 438/729 [00:01<00:00, 306.68it/s]Loading weights:  71%|███████   | 516/729 [00:01<00:00, 413.34it/s]Loading weights:  81%|████████▏ | 593/729 [00:01<00:00, 491.32it/s]Loading weights:  93%|█████████▎| 681/729 [00:02<00:00, 590.29it/s]Loading weights: 100%|██████████| 729/729 [00:02<00:00, 346.54it/s]
+[load] models ready in 109.1s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[1/27] hMqaU-K4uwI: 1 samples, 1 done, 122s
+[2/27] k32ysBwfGrk: 1 samples, 2 done, 154s
+[3/27] kcAivnYmQy8: 3 samples, 5 done, 226s
+[4/27] l1hSxpbY0yA: 3 samples, 8 done, 234s
+[5/27] lOTorz4GDwE: 1 samples, 9 done, 249s
+[6/27] lyS0DjDN9Qw: 1 samples, 10 done, 253s
+[7/27] mPDB-QrUYoM: 2 samples, 12 done, 295s
+[8/27] mubzSlG256c: 1 samples, 13 done, 297s
+[9/27] nh1GBPeyyMo: 1 samples, 14 done, 302s
+[10/27] o0MMAUX2dCo: 4 samples, 18 done, 308s
+[11/27] o_lLsDzK-JM: 4 samples, 22 done, 337s
+[12/27] ozI4uzaN_AM: 2 samples, 24 done, 354s
+[13/27] pVeRDMujVks: 4 samples, 28 done, 376s
+[14/27] pvSVznXAbug: 2 samples, 30 done, 384s
+[15/27] q__k5o5SgT8: 3 samples, 33 done, 394s
+[16/27] rXMzwPkVfHE: 1 samples, 34 done, 403s
+[17/27] s7bQwV16TkY: 1 samples, 35 done, 423s
+[18/27] sO3wd7X-l7U: 2 samples, 37 done, 425s
+[19/27] tRc9CmFEj2I: 1 samples, 38 done, 438s
+[20/27] ud-_6yxlzZY: 1 samples, 39 done, 443s
+[21/27] vEOd8pdW8Ug: 2 samples, 41 done, 475s
+[22/27] vbsqiFUisTM: 1 samples, 42 done, 478s
+[23/27] w2WsRhnRQLI: 1 samples, 43 done, 493s
+[24/27] wiXBbGcpgjs: 1 samples, 44 done, 514s
+[25/27] xAfG9GHJ3Tk: 2 samples, 46 done, 642s
+[26/27] xkIf4V53Izc: 3 samples, 49 done, 654s
+[27/27] yIVDslDpXF4: 2 samples, 51 done, 688s
+
+========================================================================
+samples 206  emits 2174  GT triggers 743
+TIME   P 0.1283  R 0.3755  F1 0.1913   (macro 0.1761)
+JOINT  F1 lower bound 0.0439   (macro 0.0428)  -- judge pending
+token keep rate 0.4893
+wrote /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard05.jsonl
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/summary.shard05.json
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/profile_summary.shard05.pass1.csv
+========================================================================

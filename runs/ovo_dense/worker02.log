@@ -1,0 +1,31 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[paired] 584 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 3/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  16%|█▌        | 114/729 [00:00<00:00, 1120.34it/s]Loading weights:  31%|███       | 227/729 [00:00<00:00, 940.94it/s] Loading weights:  44%|████▍     | 323/729 [00:00<00:00, 834.80it/s]Loading weights:  64%|██████▎   | 463/729 [00:00<00:00, 1026.30it/s]Loading weights:  79%|███████▉  | 579/729 [00:00<00:00, 1068.24it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1133.23it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 133.2s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=30.0  (506s)
+[40/146] realtime=55.56 backward=34.29  (739s)
+[60/146] realtime=48.89 backward=34.29  (1216s)
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (154960 > 131072). Running this sequence through the model will result in indexing errors
+[80/146] realtime=53.62 backward=34.29 forward=42.86  (1585s)
+[100/146] realtime=53.62 backward=34.29 forward=29.95  (1957s)
+[120/146] realtime=53.62 backward=34.29 forward=43.65  (2163s)
+[140/146] realtime=53.62 backward=34.29 forward=35.92  (2209s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 100.00%  errors 0
+  Real-Time Visual Perception    53.62
+  Backward Tracing               34.29
+  Forward Active Responding      35.22
+  Overall                        41.04
+wrote runs/ovo_dense/ovo_raw_logs.shard02.jsonl
+      runs/ovo_dense/summary.shard02.json
+======================================================================

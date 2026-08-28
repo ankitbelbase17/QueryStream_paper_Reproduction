@@ -1,0 +1,580 @@
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (3s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (3s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (3s elapsed)
+  [batch] in_progress  0/270  (18s elapsed)
+  [batch] in_progress  0/270  (34s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (2s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (33s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (17s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  0/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  0/270  (1s elapsed)
+  [batch] in_progress  0/270  (16s elapsed)
+  [batch] in_progress  10/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (17s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (17s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (17s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (17s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  236/270  (1s elapsed)
+  [batch] in_progress  236/270  (16s elapsed)
+  [batch] in_progress  236/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (2s elapsed)
+  [batch] in_progress  250/270  (18s elapsed)
+  [batch] in_progress  250/270  (34s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (17s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (17s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (16s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (17s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  250/270  (1s elapsed)
+  [batch] in_progress  250/270  (17s elapsed)
+  [batch] in_progress  250/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  259/270  (1s elapsed)
+  [batch] in_progress  259/270  (16s elapsed)
+  [batch] in_progress  259/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  262/270  (1s elapsed)
+  [batch] in_progress  262/270  (17s elapsed)
+  [batch] in_progress  262/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  264/270  (1s elapsed)
+  [batch] in_progress  264/270  (16s elapsed)
+  [batch] in_progress  264/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  264/270  (1s elapsed)
+  [batch] in_progress  264/270  (16s elapsed)
+  [batch] in_progress  264/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  266/270  (1s elapsed)
+  [batch] in_progress  266/270  (17s elapsed)
+  [batch] in_progress  267/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  267/270  (1s elapsed)
+  [batch] in_progress  267/270  (16s elapsed)
+  [batch] in_progress  267/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  269/270  (1s elapsed)
+  [batch] in_progress  269/270  (16s elapsed)
+  [batch] in_progress  269/270  (32s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] in_progress  269/270  (1s elapsed)
+  [batch] in_progress  269/270  (16s elapsed)
+  [batch] in_progress  269/270  (31s elapsed)
+[judge] batch is 'in_progress' -- not collecting yet.
+        Re-run later:  python judge_batch.py runs/sb_subset --collect
+[judge] 270 records in runs/sb_subset/eval_raw_logs.jsonl
+[judge] resuming batch_id=batch_6a8c3abb08748190a52e2eea67cc4e1b
+  [batch] completed    270/270  (1s elapsed)
+[judge] fetched 270 mappings
+
+  judged questions          270
+  exact-match accuracy      71.11%
+  judge accuracy            71.11%
+  parser/judge agreement    100.00% (0 disagreements)
+  parse failures recovered  0
+[collect] judge landed Mon Aug 24 06:13:17 PM CEST 2026
+wrote runs/sb_subset/QueryStream_StreamingBench_report.pdf  (180 KB)
+[collect] report regenerated with judge section

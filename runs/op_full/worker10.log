@@ -1,0 +1,29 @@
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 11/12: 105 videos, 229 samples
+[resume] 220 samples already in /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard10.jsonl
+[todo] 7 videos still to run (9 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 96/729 [00:00<00:00, 954.78it/s]Loading weights:  26%|██▋       | 192/729 [00:00<00:00, 885.22it/s]Loading weights:  39%|███▊      | 281/729 [00:00<00:00, 846.23it/s]Loading weights:  63%|██████▎   | 461/729 [00:00<00:00, 1193.40it/s]Loading weights:  89%|████████▉ | 649/729 [00:00<00:00, 1428.95it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1286.46it/s]
+[load] models ready in 71.6s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[1/7] vOTU-xNzQlo: 1 samples, 1 done, 80s
+[2/7] vkDb-j2R5_s: 1 samples, 2 done, 86s
+[3/7] wRuu1XJ4NcE: 1 samples, 3 done, 89s
+[4/7] wyEVCUU6AbA: 2 samples, 5 done, 108s
+[5/7] xQqladBKjFU: 1 samples, 6 done, 119s
+[6/7] xxkw6OT_flM: 2 samples, 8 done, 134s
+[7/7] zOf8kNZWGGo: 1 samples, 9 done, 140s
+
+========================================================================
+samples 229  emits 1942  GT triggers 737
+TIME   P 0.1282  R 0.3379  F1 0.1859   (macro 0.1817)
+JOINT  F1 lower bound 0.0478   (macro 0.0542)  -- judge pending
+token keep rate 0.4762
+wrote /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard10.jsonl
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/summary.shard10.json
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/profile_summary.shard10.pass1.csv
+========================================================================

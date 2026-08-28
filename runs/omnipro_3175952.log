@@ -1,0 +1,66 @@
+[job 3175952] nodes=3 tasks=12 out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full
+[job] mask_space=score pool=mean relevance=running_minmax gate=full gap=3.0
+[worker 1/12] host=nid007647 gpu=1
+[worker 3/12] host=nid007647 gpu=3
+[worker 0/12] host=nid007647 gpu=0
+[worker 2/12] host=nid007647 gpu=2
+[worker 11/12] host=nid007656 gpu=3
+[worker 10/12] host=nid007656 gpu=2
+[worker 9/12] host=nid007656 gpu=1
+[worker 8/12] host=nid007656 gpu=0
+[worker 6/12] host=nid007655 gpu=2
+[worker 7/12] host=nid007655 gpu=3
+[worker 4/12] host=nid007655 gpu=0
+[worker 5/12] host=nid007655 gpu=1
+[worker 8] exit=0
+[worker 1] exit=0
+[worker 6] exit=0
+[worker 7] exit=0
+[worker 5] exit=0
+[worker 3] exit=0
+[worker 2] exit=0
+[worker 4] exit=0
+[worker 11] exit=0
+[worker 10] exit=0
+[worker 0] exit=0
+[worker 9] exit=0
+[score] aggregating shards ...
+[read] 12 shard file(s), 2301 lines, 2301 unique samples
+
+==============================================================================
+OMNIPRO ONLINE MODE  |  n=2301  tol=+-3.0s  keep=48.0%
+==============================================================================
+  responses emitted 21569   ground-truth triggers 7539   time-matched 2573
+  TIME   P 0.1193  R 0.3413  F1 0.1768   macro 0.174
+  CONTENT ACC  0.2682 (lower bound)   macro 0.4333
+  JOINT  F1 0.0474 (lower bound)   macro 0.0618
+
+  per sub-task (joint F1 x100, paper Table 2 order):
+    task                              n  emits    gt   timeF1    cAcc  jointF1
+    Event-Alert                     300   3037   395      8.2   100.0      8.2
+    Target-Ground                   235   2245   265      6.0    16.0      1.0
+    State-Monitor                   244   2580  1086     25.1    11.1      2.8
+    Snap.-Count                     300   2941   300      7.5    13.1      1.0
+    Cond.-Alert                     230   1910   752     17.0   100.0     17.0
+    Cum.-Count                      253   2263  1230     21.7    29.8      6.5
+    Event-Narr.                     238   2401  1048     19.8    <0.0     <0.0
+    Dedup.-Count                    262   2750  1075     20.7    33.3      6.9
+    Step-Inst.                      239   1442  1388     30.5    <0.0     <0.0
+
+  headline slices:
+    Audio = required                   n=1511  timeF1 16.7  jointF1 5.2
+    Audio helpful / none               n=790   timeF1 18.9  jointF1 7.3
+    Event-Narration (audio required)   n=160   timeF1 21.1  jointF1 <0.0
+
+  benchmark-weighted macro joint F1: 5.99
+    weights {'audio_none': 0.16, 'audio_helpful': 0.1852, 'audio_required': 0.6548}
+    equal-weighted 0.0681   subset-weighted 0.0599
+  paper reference, MiniCPM-o 4.5 VIDEO-ONLY online mean F1: 13.8  (same model with audio: 20.9)
+==============================================================================
+
+wrote /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_metrics.json
+[job] done: /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full
+[next] judge:  python judge_omnipro.py /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full --submit
+[next] then:   python judge_omnipro.py /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full --collect && \
+               python score_omnipro.py /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full && \
+               python make_omnipro_report.py /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full

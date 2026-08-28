@@ -1,0 +1,33 @@
+[resume] 625 questions already logged; they will be skipped
+[shard] 4/4: 125 of 500 videos
+[data] 125 videos / 625 questions from /iopsstor/scratch/cscs/dbartaula/eval_7_10_8_19/simplestreamingeval/data/streamingbench/questions_real.json
+[load] OpenCLIP ViT-L-14/openai on cuda:0 ...
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+[load] OpenCLIP ready in 94.5s, grid (16, 16)
+[load] Qwen/Qwen2.5-VL-7B-Instruct on cuda:0 ...
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 86/729 [00:00<00:01, 451.22it/s]Loading weights:  29%|██▉       | 215/729 [00:00<00:00, 726.61it/s]Loading weights:  47%|████▋     | 340/729 [00:00<00:00, 828.75it/s]Loading weights:  92%|█████████▏| 671/729 [00:00<00:00, 1601.16it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1272.90it/s]
+[load] backbone ready in 17.8s
+[decode] 2 prefetch threads, queue depth 2
+[budget] will stop starting new videos after 4900s
+
+Model                            Keep     OP     CR     CS    ATP     EU     TR     PR     SU    ACP     CT     All
+-------------------------------------------------------------------------------------------------------------------
+QueryStream (ours)              49.7%  71.11  78.79  81.58  79.31  69.05  78.21  77.78  58.21  63.75  57.78   71.68
+  paper: QueryStream-7B (57.2% keep)         82.38  84.38  79.18  82.37  77.99  81.31  78.70  65.04  69.32  47.34   75.32
+  paper: Qwen2.5-VL-7B (full tokens)         78.32  80.47  78.86  80.45  76.73  78.50  79.63  63.41  66.19  53.19   73.68
+
+  n=625  correct=448  unparsed=0  errors=0
+  token keep rate = 10491094/21126978 = 49.66%
+
+  wall clock        0.0 min
+  openclip          0.00 ms/frame
+  vision tower      0.00 ms/frame
+  qdp+rtar          0.000 ms/frame
+  llm prefill/TTFT  0.0 ms/question
+  llm decode        0.0 ms/question (0.0 ms/token)
+
+  jsonl   /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3/eval_raw_logs.jsonl
+  csv     /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3/profile_summary.csv
+  summary /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3/summary.json

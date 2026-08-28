@@ -1,0 +1,29 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[paired] 584 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 1/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  10%|█         | 74/729 [00:00<00:00, 715.52it/s]Loading weights:  20%|██        | 146/729 [00:00<00:00, 604.94it/s]Loading weights:  29%|██▊       | 208/729 [00:00<00:01, 514.72it/s]Loading weights:  41%|████▏     | 301/729 [00:00<00:00, 650.02it/s]Loading weights:  53%|█████▎    | 385/729 [00:00<00:00, 701.13it/s]Loading weights:  68%|██████▊   | 496/729 [00:00<00:00, 827.81it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1016.37it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 88.6s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=16.66  (433s)
+[40/146] realtime=12.5 backward=44.44  (612s)
+[60/146] realtime=49.3 backward=44.44  (1091s)
+[80/146] realtime=47.45 backward=44.44 forward=16.67  (1447s)
+[100/146] realtime=47.45 backward=44.44 forward=41.66  (1783s)
+[120/146] realtime=47.45 backward=44.44 forward=26.74  (1987s)
+[140/146] realtime=47.45 backward=44.44 forward=34.31  (2019s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 50.56%  errors 0
+  Real-Time Visual Perception    47.45
+  Backward Tracing               44.44
+  Forward Active Responding      35.07
+  Overall                        42.32
+wrote runs/ovo_laion/ovo_raw_logs.shard00.jsonl
+      runs/ovo_laion/summary.shard00.json
+======================================================================

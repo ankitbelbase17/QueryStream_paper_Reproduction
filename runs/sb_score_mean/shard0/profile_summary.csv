@@ -1,0 +1,2 @@
+scope,video_id,question_id,task_code,n_frames,n_planes,decode_ms_per_frame,openclip_ms_per_frame,vision_tower_ms_per_frame,qdp_rtar_ms_per_frame,llm_prefill_ms,llm_decode_ms,llm_decode_ms_per_token,n_new_tokens,visual_tokens_dense,visual_tokens_kept,avg_keep_rate,total_wall_clock_sec
+OVERALL,0 rows,0 questions,,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0775

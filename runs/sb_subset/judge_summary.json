@@ -1,0 +1,79 @@
+{
+  "judged": 270,
+  "judge_acc": 71.11111111111111,
+  "exact_acc_on_judged": 71.11111111111111,
+  "parser_judge_agreement_pct": 100.0,
+  "recovered_parse_failures": 0,
+  "disagreements": [],
+  "n_disagreements": 0,
+  "exact_match_summary": {
+    "acc": 71.11111111111111,
+    "n": 270
+  },
+  "judge_summary_table": {
+    "tasks": {
+      "OP": {
+        "total": 45,
+        "correct": 30,
+        "acc": 66.66666666666667
+      },
+      "CR": {
+        "total": 12,
+        "correct": 9,
+        "acc": 75.0
+      },
+      "CS": {
+        "total": 35,
+        "correct": 26,
+        "acc": 74.28571428571429
+      },
+      "ATP": {
+        "total": 40,
+        "correct": 33,
+        "acc": 82.5
+      },
+      "EU": {
+        "total": 22,
+        "correct": 16,
+        "acc": 72.72727272727273
+      },
+      "TR": {
+        "total": 27,
+        "correct": 17,
+        "acc": 62.96296296296296
+      },
+      "PR": {
+        "total": 6,
+        "correct": 5,
+        "acc": 83.33333333333333
+      },
+      "SU": {
+        "total": 16,
+        "correct": 10,
+        "acc": 62.5
+      },
+      "ACP": {
+        "total": 52,
+        "correct": 35,
+        "acc": 67.3076923076923
+      },
+      "CT": {
+        "total": 15,
+        "correct": 11,
+        "acc": 73.33333333333333
+      }
+    },
+    "overall": {
+      "total": 270,
+      "correct": 192,
+      "acc": 71.11111111111111
+    },
+    "token_keep_rate_pct": 50.01826598344371,
+    "visual_tokens_kept": 4590808,
+    "visual_tokens_dense": 9178263,
+    "unparsed": 0,
+    "errors": 0
+  },
+  "batch_id": "batch_6a8c3abb08748190a52e2eea67cc4e1b",
+  "model": "gpt-4o-mini"
+}

@@ -1,0 +1,55 @@
+[job 3179312] host=nid006151 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+0, NVIDIA GH200 120GB, 97241 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97271 MiB
+3, NVIDIA GH200 120GB, 97272 MiB
+[job 3179312] host=nid006151 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3179312] host=nid006151 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3179312] host=nid006151 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3179312] host=nid006151 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+0, NVIDIA GH200 120GB, 97241 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97271 MiB
+3, NVIDIA GH200 120GB, 97272 MiB
+0, NVIDIA GH200 120GB, 97241 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97271 MiB
+3, NVIDIA GH200 120GB, 97272 MiB
+0, NVIDIA GH200 120GB, 97241 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97271 MiB
+3, NVIDIA GH200 120GB, 97272 MiB
+0, NVIDIA GH200 120GB, 97241 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97271 MiB
+[worker 1/4] gpu=1 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard1
+3, NVIDIA GH200 120GB, 97272 MiB
+[worker 0/4] gpu=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard0
+[worker 3/4] gpu=3 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3
+[worker 2/4] gpu=2 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard2
+[worker 0] exit=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard0/worker.log
+[worker 3] exit=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3/worker.log
+[worker 1] exit=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard1/worker.log
+[worker 2] exit=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard2/worker.log
+[merge] unioning shards ...
+  shard0/eval_raw_logs.jsonl               +625
+  shard1/eval_raw_logs.jsonl               +625
+  shard2/eval_raw_logs.jsonl               +625
+  shard3/eval_raw_logs.jsonl               +625
+
+Model                            Keep     OP     CR     CS    ATP     EU     TR     PR     SU    ACP     CT     All
+-------------------------------------------------------------------------------------------------------------------
+QueryStream (ours)              49.4%  72.63  78.91  76.97  73.08  72.96  69.47  75.93  59.35  63.35  55.32   69.40
+  paper: QueryStream-7B (57.2% keep)         82.38  84.38  79.18  82.37  77.99  81.31  78.70  65.04  69.32  47.34   75.32
+  paper: Qwen2.5-VL-7B (full tokens)         78.32  80.47  78.86  80.45  76.73  78.50  79.63  63.41  66.19  53.19   73.68
+
+  n=2500  correct=1735  unparsed=0  errors=0
+  token keep rate = 41058754/83110428 = 49.40%
+
+  merged  /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/merged/eval_raw_logs.jsonl
+[job] done: /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean

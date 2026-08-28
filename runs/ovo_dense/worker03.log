@@ -1,0 +1,31 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[paired] 584 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 4/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  21%|██        | 153/729 [00:00<00:00, 1511.11it/s]Loading weights:  42%|████▏     | 305/729 [00:00<00:00, 1066.70it/s]Loading weights:  58%|█████▊    | 421/729 [00:00<00:00, 1096.06it/s]Loading weights:  74%|███████▎  | 536/729 [00:00<00:00, 1080.69it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1365.84it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 133.2s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=44.05  (579s)
+[40/146] realtime=33.33 backward=50.95  (712s)
+[60/146] realtime=60.27 backward=50.95  (1063s)
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (155158 > 131072). Running this sequence through the model will result in indexing errors
+[80/146] realtime=63.59 backward=50.95 forward=57.14  (1536s)
+[100/146] realtime=63.59 backward=50.95 forward=40.93  (1889s)
+[120/146] realtime=63.59 backward=50.95 forward=49.43  (2090s)
+[140/146] realtime=63.59 backward=50.95 forward=43.15  (2126s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 100.00%  errors 0
+  Real-Time Visual Perception    63.59
+  Backward Tracing               50.95
+  Forward Active Responding      41.00
+  Overall                        51.85
+wrote runs/ovo_dense/ovo_raw_logs.shard03.jsonl
+      runs/ovo_dense/summary.shard03.json
+======================================================================

@@ -1,0 +1,132 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# QueryStream reproduction — .gitignore
+#
+# Three jobs, in order of importance:
+#   1. never commit a credential
+#   2. never commit benchmark video / dataset payloads
+#   3. keep the repo reviewable — results summaries in, multi-GB raw traces out
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── 1. SECRETS ───────────────────────────────────────────────────────────────
+# The judges read OPENAI_API_KEY from the environment only and never write it to
+# disk (CLAUDE.md §13.7 decision 7). These patterns are belt-and-braces.
+.env
+.env.*
+!.env.example
+*.env
+env.sh
+secrets.*
+*secret*
+*credential*
+*_key
+*_key.*
+apikey*
+api_key*
+openai_key*
+hf_token*
+.netrc
+.huggingface/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.aws/
+.config/gcloud/
+
+# ── 2. DATASETS & MEDIA ──────────────────────────────────────────────────────
+# Benchmark corpora live OUTSIDE this tree and must stay there:
+#   StreamingBench  /iopsstor/scratch/cscs/dbartaula/eval_7_10_8_19/...  (246 GB)
+#   OmniPro         /iopsstor/scratch/cscs/dbartaula/omnipro_data/       (1,262 videos)
+#   OVO-Bench       chunked_videos/                                      (3,035 clips)
+# These rules stop a copy or symlink from ever being staged.
+/data/
+datasets/
+dataset/
+videos/
+chunked_videos/
+*_data/
+omnipro_data/
+streamingbench/
+questions_real.json
+benchmark.json
+
+# video / audio containers
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.flac
+# ...except the 279 KB synthetic fixture test_integration.py builds against.
+# (`/data/` above is anchored to the repo root precisely so tests/data/ survives:
+#  git never descends into an excluded directory, so a negation inside one is dead.)
+!tests/data/sample_bottle.mp4
+
+# model weights & feature caches
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.h5
+*.tfrecord
+hf_cache/
+.cache/
+checkpoints/
+
+# ── 3. RUN ARTEFACTS ─────────────────────────────────────────────────────────
+# Deliberately TRACKED, so a clone can reproduce every published number:
+#   *raw_logs*.jsonl      per-frame R_t/D_t/T_t traces + raw_trigger_ts.
+#                         CLAUDE.md §15.9/§15.10 re-derive the gate ablation and
+#                         the debounce sweep from these, offline, with no GPU.
+#   judge_*.jsonl         OpenAI judge requests + verdicts, so the OmniPro
+#                         content scores (§19.2) re-score without re-paying.
+#   summary.json / profile_summary.csv / figures/*.png / *_report.pdf
+# Only genuinely regenerable scratch is ignored here.
+slurm-*.out
+*.sbatch.out
+nohup.out
+core.[0-9]*
+
+# ── 4. PYTHON ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── 5. THIRD-PARTY SOURCE PAPERS ─────────────────────────────────────────────
+# Copyrighted PDFs of the papers being reproduced. Not required to run anything;
+# cite them instead. Generated reports under runs/ are tracked.
+/15489_QueryStream_Advancing_St.pdf
+/omnipro1.pdf
+
+# ── 6. EDITOR / OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+scope,video_id,question_id,task_code,n_frames,n_planes,decode_ms_per_frame,openclip_ms_per_frame,vision_tower_ms_per_frame,qdp_rtar_ms_per_frame,llm_prefill_ms,llm_decode_ms,llm_decode_ms_per_token,n_new_tokens,visual_tokens_dense,visual_tokens_kept,avg_keep_rate,total_wall_clock_sec
+video,-powI0eeLbw,,,52,26,59.7134,24.9851,28.0778,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,-powI0eeLbw,dedup_counting::-powI0eeLbw::1,dedup_counting,52,26,0.0,0.0,0.0,3.9421,96.9374,20.1951,20.1951,12,6552,3320,0.5067,1.3889
+video,3ga91VB8myI,,,38,19,27.2619,2.0952,17.6322,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,3ga91VB8myI,cumulative_counting::3ga91VB8myI::33,cumulative_counting,38,19,0.0,0.0,0.0,0.285,56.9781,19.7488,19.7488,2,4788,2534,0.5292,0.1179
+video,4aw9-U_kkcs,,,51,25,32.7697,2.2835,18.3649,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,4aw9-U_kkcs,cumulative_counting::4aw9-U_kkcs::41,cumulative_counting,51,25,0.0,0.0,0.0,0.2025,53.4725,20.5596,20.5596,4,6300,2894,0.4594,0.2181
+video,GEmaF4_W0RE,,,31,15,34.9844,2.1385,18.2611,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,GEmaF4_W0RE,cumulative_counting::GEmaF4_W0RE::95,cumulative_counting,31,15,0.0,0.0,0.0,0.359,55.7095,20.2106,20.2106,4,3780,1846,0.4884,0.221
+video,HAFLLtAcRKY,,,53,26,53.4202,1.7291,17.8572,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,HAFLLtAcRKY,cumulative_counting::HAFLLtAcRKY::103,cumulative_counting,53,26,0.0,0.0,0.0,0.1886,79.4207,18.6571,18.6571,8,6552,3224,0.4921,0.5177
+video,PI22nHgBKg4,,,37,18,42.3796,1.7831,19.1075,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,PI22nHgBKg4,cumulative_counting::PI22nHgBKg4::144,cumulative_counting,37,18,0.0,0.0,0.0,0.258,51.1383,18.4453,18.4453,4,3978,2013,0.506,0.2022
+OVERALL,12 rows,6 questions,,262,129,0.0,6.5619,20.2039,0.9802,75.1133,19.6458,19.6458,34,45558,22957,0.5039,13.5643

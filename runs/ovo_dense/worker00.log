@@ -1,0 +1,31 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[paired] 584 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 1/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 204/729 [00:00<00:00, 1952.35it/s]Loading weights:  55%|█████▍    | 400/729 [00:00<00:00, 1395.58it/s]Loading weights:  75%|███████▌  | 549/729 [00:00<00:00, 1308.07it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1559.24it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 133.2s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=33.34  (555s)
+[40/146] realtime=0.0 backward=44.26  (816s)
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (181527 > 131072). Running this sequence through the model will result in indexing errors
+[60/146] realtime=45.14 backward=44.26  (1451s)
+[80/146] realtime=44.68 backward=44.26 forward=33.33  (1934s)
+[100/146] realtime=44.68 backward=44.26 forward=45.84  (2330s)
+[120/146] realtime=44.68 backward=44.26 forward=45.14  (2578s)
+[140/146] realtime=44.68 backward=44.26 forward=42.11  (2617s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 100.00%  errors 0
+  Real-Time Visual Perception    44.68
+  Backward Tracing               44.26
+  Forward Active Responding      41.57
+  Overall                        43.5
+wrote runs/ovo_dense/ovo_raw_logs.shard00.jsonl
+      runs/ovo_dense/summary.shard00.json
+======================================================================

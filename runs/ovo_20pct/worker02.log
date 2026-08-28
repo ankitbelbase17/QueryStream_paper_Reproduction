@@ -1,0 +1,30 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[subset] 584 calls / 328 samples, 37.6 h
+[shard] 3/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 89/729 [00:00<00:00, 886.97it/s]Loading weights:  24%|██▍       | 178/729 [00:00<00:01, 526.68it/s]Loading weights:  33%|███▎      | 242/729 [00:00<00:00, 556.60it/s]Loading weights:  53%|█████▎    | 386/729 [00:00<00:00, 835.91it/s]Loading weights:  73%|███████▎  | 532/729 [00:00<00:00, 1007.47it/s]Loading weights:  88%|████████▊ | 641/729 [00:00<00:00, 887.64it/s] Loading weights: 100%|██████████| 729/729 [00:00<00:00, 926.75it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 243.4s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=30.0  (750s)
+[40/146] realtime=33.33 backward=34.29  (1042s)
+[60/146] realtime=45.83 backward=34.29  (1631s)
+[80/146] realtime=48.81 backward=34.29 forward=42.86  (2050s)
+[100/146] realtime=48.81 backward=34.29 forward=29.95  (2358s)
+[120/146] realtime=48.81 backward=34.29 forward=32.53  (2531s)
+[140/146] realtime=48.81 backward=34.29 forward=31.57  (2561s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 50.47%  errors 0
+  Real-Time Visual Perception    48.81
+  Backward Tracing               34.29
+  Forward Active Responding      29.47
+  Overall                        37.52
+wrote runs/ovo_20pct/ovo_raw_logs.shard02.jsonl
+      runs/ovo_20pct/summary.shard02.json
+======================================================================

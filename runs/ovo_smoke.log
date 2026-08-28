@@ -1,0 +1,28 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[subset] 584 calls / 328 samples, 37.6 h
+[shard] 1/1: 12 calls
+[todo] 12 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 3071.63it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 104/729 [00:00<00:00, 1029.53it/s]Loading weights:  28%|██▊       | 207/729 [00:00<00:01, 519.65it/s] Loading weights:  40%|███▉      | 289/729 [00:00<00:01, 350.13it/s]Loading weights:  57%|█████▋    | 417/729 [00:00<00:00, 531.62it/s]Loading weights:  79%|███████▊  | 573/729 [00:00<00:00, 755.02it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 730.09it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 286.9s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[2/12] backward=0.0  (315s)
+[4/12] backward=25.0  (389s)
+[6/12] backward=50.0  (445s)
+[8/12] backward=50.0  (469s)
+[10/12] backward=50.0  (505s)
+[12/12] backward=58.33  (575s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 12  keep 51.85%  errors 0
+  Backward Tracing               58.33
+  Overall                        n/a
+wrote runs/ovo_smoke/ovo_raw_logs.jsonl
+      runs/ovo_smoke/summary.json
+======================================================================

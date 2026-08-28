@@ -1,0 +1,27 @@
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/huggingface_hub/constants.py:277: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+[dl] 1262 referenced, 584 missing
+[dl] 25/584 ok=25 fail=0 8s
+[dl] 50/584 ok=50 fail=0 14s
+[dl] 75/584 ok=75 fail=0 21s
+[dl] 100/584 ok=100 fail=0 27s
+[dl] 125/584 ok=125 fail=0 32s
+[dl] 150/584 ok=150 fail=0 38s
+[dl] 175/584 ok=175 fail=0 43s
+[dl] 200/584 ok=200 fail=0 48s
+[dl] 225/584 ok=225 fail=0 54s
+[dl] 250/584 ok=250 fail=0 61s
+[dl] 275/584 ok=275 fail=0 68s
+[dl] 300/584 ok=300 fail=0 74s
+[dl] 325/584 ok=325 fail=0 79s
+[dl] 350/584 ok=350 fail=0 86s
+[dl] 375/584 ok=375 fail=0 91s
+[dl] 400/584 ok=400 fail=0 96s
+[dl] 425/584 ok=425 fail=0 102s
+[dl] 450/584 ok=450 fail=0 107s
+[dl] 475/584 ok=475 fail=0 112s
+[dl] 500/584 ok=500 fail=0 118s
+[dl] 525/584 ok=525 fail=0 124s
+[dl] 550/584 ok=550 fail=0 129s
+[dl] 575/584 ok=575 fail=0 134s
+[dl] DONE ok=584 fail=0 in 136s

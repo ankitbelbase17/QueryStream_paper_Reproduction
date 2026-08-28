@@ -1,0 +1,29 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[paired] 584 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 2/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 8177.12it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 88.6s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=26.66  (594s)
+[40/146] realtime=25.0 backward=42.78  (741s)
+[60/146] realtime=61.11 backward=42.78  (1066s)
+[80/146] realtime=57.82 backward=42.78 forward=16.67  (1470s)
+[100/146] realtime=57.82 backward=42.78 forward=30.36  (1822s)
+[120/146] realtime=57.82 backward=42.78 forward=52.42  (2010s)
+[140/146] realtime=57.82 backward=42.78 forward=33.58  (2045s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 145  keep 50.87%  errors 1
+  Real-Time Visual Perception    57.82
+  Backward Tracing               42.78
+  Forward Active Responding      32.88
+  Overall                        44.49
+wrote runs/ovo_laion/ovo_raw_logs.shard01.jsonl
+      runs/ovo_laion/summary.shard01.json
+======================================================================

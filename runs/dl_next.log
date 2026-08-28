@@ -1,0 +1,7 @@
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/huggingface_hub/constants.py:277: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files:  29%|██▊       | 4/14 [00:00<00:01,  7.89it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 27.38it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 22.58it/s]
+[dl] Qwen3-VL-8B-Instruct -> /iopsstor/scratch/cscs/dbartaula/hf_cache/hub/models--Qwen--Qwen3-VL-8B-Instruct/snapshots/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b in 1s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[dl] OpenCLIP ViT-L-14/laion2b_s32b_b82k cached in 23s

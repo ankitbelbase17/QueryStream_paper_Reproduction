@@ -1,0 +1,84 @@
+{
+  "tasks": {
+    "OP": {
+      "total": 6,
+      "correct": 4,
+      "acc": 66.66666666666667
+    },
+    "CR": {
+      "total": 3,
+      "correct": 3,
+      "acc": 100.0
+    },
+    "ATP": {
+      "total": 4,
+      "correct": 3,
+      "acc": 75.0
+    },
+    "EU": {
+      "total": 3,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "TR": {
+      "total": 5,
+      "correct": 3,
+      "acc": 60.0
+    },
+    "SU": {
+      "total": 1,
+      "correct": 1,
+      "acc": 100.0
+    },
+    "ACP": {
+      "total": 3,
+      "correct": 3,
+      "acc": 100.0
+    }
+  },
+  "overall": {
+    "total": 25,
+    "correct": 17,
+    "acc": 68.0
+  },
+  "token_keep_rate_pct": 53.887339462176776,
+  "visual_tokens_kept": 187806,
+  "visual_tokens_dense": 348516,
+  "unparsed": 0,
+  "errors": 0,
+  "profile": {
+    "scope": "OVERALL",
+    "video_id": "30 rows",
+    "question_id": "25 questions",
+    "task_code": "",
+    "n_frames": 1282,
+    "n_planes": 640,
+    "decode_ms_per_frame": 46.0109,
+    "openclip_ms_per_frame": 1.6238,
+    "vision_tower_ms_per_frame": 15.8099,
+    "qdp_rtar_ms_per_frame": 0.2769,
+    "llm_prefill_ms": 317.7191,
+    "llm_decode_ms": 17.1774,
+    "llm_decode_ms_per_token": 17.1774,
+    "n_new_tokens": 50,
+    "visual_tokens_dense": 348516,
+    "visual_tokens_kept": 187806,
+    "avg_keep_rate": 0.5389,
+    "total_wall_clock_sec": 91.6951
+  },
+  "run": {
+    "videos": 5,
+    "questions_evaluated": 25,
+    "wall_clock_sec": 91.69458181099981,
+    "mask_space": "score",
+    "pool": "mean",
+    "relevance_mode": "running_minmax",
+    "keep_mode": "qdp",
+    "tau_temp": 0.9,
+    "tau_rel": 0.6,
+    "tau_den": 0.15,
+    "alpha": 0.1,
+    "fps": 1.0,
+    "max_pixels": 200704
+  }
+}

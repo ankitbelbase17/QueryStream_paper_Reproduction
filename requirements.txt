@@ -1,0 +1,36 @@
+# QueryStream reproduction — pinned to the versions every published number in
+# CLAUDE.md / HANDOFF.md was produced with (GH200, CUDA 12.6).
+#
+#   python -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# torch is pinned to a +cu126 build; install it from the PyTorch index first if
+# your CUDA differs:
+#   pip install torch==2.12.1 --index-url https://download.pytorch.org/whl/cu126
+
+torch==2.12.1
+transformers==5.9.0
+accelerate==1.13.0
+huggingface-hub==1.17.0
+
+# feature encoder E (OpenCLIP-ViT-L/14). NOTE: `openai` and `laion2b_s32b_b82k`
+# weights give different results — see CLAUDE.md §13.4 and §19.1.
+open_clip_torch==3.3.0
+
+numpy==2.4.6
+pillow==12.2.0
+
+# video decode. decord is NOT used: its lmms-eval pin conflicts with numpy 2.x,
+# so video_io.py uses cv2 with a PyAV fallback (CLAUDE.md §12.7).
+opencv-python-headless==4.13.0.92
+av==17.0.1
+
+# reporting
+matplotlib==3.10.9
+reportlab==5.0.0
+
+# OPTIONAL — only for the LLM judge. Every judge reads OPENAI_API_KEY from the
+# environment and never writes it to disk (CLAUDE.md §13.7 decision 7).
+openai==2.41.0
+
+tqdm==4.67.1

@@ -1,0 +1,24 @@
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/12: 106 videos, 226 samples
+[resume] 224 samples already in /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard00.jsonl
+[todo] 2 videos still to run (2 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 111/729 [00:00<00:00, 1065.75it/s]Loading weights:  30%|██▉       | 218/729 [00:00<00:00, 1036.42it/s]Loading weights:  44%|████▍     | 322/729 [00:00<00:00, 966.54it/s] Loading weights:  65%|██████▌   | 476/729 [00:00<00:00, 1179.73it/s]Loading weights:  88%|████████▊ | 645/729 [00:00<00:00, 1353.65it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1299.87it/s]
+[load] models ready in 75.9s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[1/2] y1k5C4QNqwY: 1 samples, 1 done, 95s
+[2/2] zrZCkdWzqB8: 1 samples, 2 done, 107s
+
+========================================================================
+samples 226  emits 2003  GT triggers 768
+TIME   P 0.1368  R 0.3568  F1 0.1978   (macro 0.1914)
+JOINT  F1 lower bound 0.0534   (macro 0.0526)  -- judge pending
+token keep rate 0.4741
+wrote /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/omnipro_raw_logs.shard00.jsonl
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/summary.shard00.json
+      /iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full/profile_summary.shard00.pass2.csv
+========================================================================

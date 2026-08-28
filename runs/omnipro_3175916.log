@@ -1,0 +1,19 @@
+[job 3175916] nodes=3 tasks=12 out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/op_full
+[job] mask_space=score pool=mean relevance=running_minmax gate=full gap=3.0
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+/usr/local/bin/bash: /var/spool/slurmd/job3175916/slurm_script: No such file or directory
+[worker 0/12] host=nid006932 gpu=0
+[worker 1/12] host=nid006932 gpu=1
+[worker 2/12] host=nid006932 gpu=2
+[worker 3/12] host=nid006932 gpu=3
+srun: error: nid007658: tasks 8-11: Exited with exit code 127
+srun: error: nid007650: tasks 4-7: Exited with exit code 127
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-08-24T19:28:37.586] error: *** STEP 3175916.0 ON nid006932 CANCELLED AT 2026-08-24T19:28:37 DUE to SIGNAL Terminated ***
+[2026-08-24T19:28:37.587] error: *** JOB 3175916 ON nid006932 CANCELLED AT 2026-08-24T19:28:37 DUE to SIGNAL Terminated ***

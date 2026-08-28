@@ -1,0 +1,30 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[subset] 584 calls / 328 samples, 37.6 h
+[shard] 1/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 131/729 [00:00<00:00, 1229.35it/s]Loading weights:  35%|███▍      | 254/729 [00:00<00:00, 832.89it/s] Loading weights:  62%|██████▏   | 453/729 [00:00<00:00, 1244.52it/s]Loading weights:  81%|████████▏ | 593/729 [00:00<00:00, 1131.34it/s]Loading weights:  98%|█████████▊| 717/729 [00:00<00:00, 1117.20it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1124.63it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 243.4s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=20.0  (795s)
+[40/146] realtime=25.0 backward=42.5  (1086s)
+[60/146] realtime=54.86 backward=42.5  (1837s)
+[80/146] realtime=51.16 backward=42.5 forward=16.67  (2219s)
+[100/146] realtime=51.16 backward=42.5 forward=41.66  (2535s)
+[120/146] realtime=51.16 backward=42.5 forward=26.74  (2719s)
+[140/146] realtime=51.16 backward=42.5 forward=35.83  (2744s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 50.52%  errors 0
+  Real-Time Visual Perception    51.16
+  Backward Tracing               42.50
+  Forward Active Responding      36.26
+  Overall                        43.31
+wrote runs/ovo_20pct/ovo_raw_logs.shard00.jsonl
+      runs/ovo_20pct/summary.shard00.json
+======================================================================

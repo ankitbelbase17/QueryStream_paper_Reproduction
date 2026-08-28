@@ -1,0 +1,104 @@
+{
+  "tasks": {
+    "OP": {
+      "total": 90,
+      "correct": 63,
+      "acc": 70.0
+    },
+    "CR": {
+      "total": 33,
+      "correct": 29,
+      "acc": 87.87878787878788
+    },
+    "CS": {
+      "total": 80,
+      "correct": 58,
+      "acc": 72.5
+    },
+    "ATP": {
+      "total": 72,
+      "correct": 50,
+      "acc": 69.44444444444444
+    },
+    "EU": {
+      "total": 43,
+      "correct": 31,
+      "acc": 72.09302325581395
+    },
+    "TR": {
+      "total": 80,
+      "correct": 54,
+      "acc": 67.5
+    },
+    "PR": {
+      "total": 27,
+      "correct": 24,
+      "acc": 88.88888888888889
+    },
+    "SU": {
+      "total": 61,
+      "correct": 39,
+      "acc": 63.9344262295082
+    },
+    "ACP": {
+      "total": 86,
+      "correct": 58,
+      "acc": 67.44186046511628
+    },
+    "CT": {
+      "total": 53,
+      "correct": 33,
+      "acc": 62.264150943396224
+    }
+  },
+  "overall": {
+    "total": 625,
+    "correct": 439,
+    "acc": 70.24
+  },
+  "token_keep_rate_pct": 49.684416933406986,
+  "visual_tokens_kept": 10134685,
+  "visual_tokens_dense": 20398116,
+  "unparsed": 0,
+  "errors": 0,
+  "profile": {
+    "scope": "OVERALL",
+    "video_id": "96 rows",
+    "question_id": "80 questions",
+    "task_code": "",
+    "n_frames": 8139,
+    "n_planes": 4065,
+    "decode_ms_per_frame": 44.1049,
+    "openclip_ms_per_frame": 9.5455,
+    "vision_tower_ms_per_frame": 17.8815,
+    "qdp_rtar_ms_per_frame": 0.147,
+    "llm_prefill_ms": 803.2494,
+    "llm_decode_ms": 14.59,
+    "llm_decode_ms_per_token": 14.59,
+    "n_new_tokens": 160,
+    "visual_tokens_dense": 2479680,
+    "visual_tokens_kept": 1311258,
+    "avg_keep_rate": 0.5288,
+    "total_wall_clock_sec": 353.2972
+  },
+  "run": {
+    "videos_in_split": 125,
+    "videos_completed": 16,
+    "questions_evaluated": 80,
+    "stopped_on_time_budget": false,
+    "time_budget_sec": 4900.0,
+    "clip_batch": 1,
+    "decode_workers": 2,
+    "wall_clock_sec": 353.23384423181415,
+    "mask_space": "score",
+    "pool": "mean",
+    "relevance_mode": "running_minmax",
+    "keep_mode": "qdp",
+    "tau_temp": 0.9,
+    "tau_rel": 0.6,
+    "tau_den": 0.15,
+    "alpha": 0.1,
+    "fps": 1.0,
+    "max_pixels": 200704
+  }
+}

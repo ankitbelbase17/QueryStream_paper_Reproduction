@@ -1,0 +1,30 @@
+[manifest] 3035 calls / 1640 samples, 178.0 h, missing_video=0
+[subset] 584 calls / 328 samples, 37.6 h
+[shard] 4/4: 146 calls
+[todo] 146 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 108/729 [00:00<00:00, 1063.09it/s]Loading weights:  29%|██▉       | 215/729 [00:00<00:00, 694.96it/s] Loading weights:  56%|█████▌    | 406/729 [00:00<00:00, 1119.08it/s]Loading weights:  73%|███████▎  | 535/729 [00:00<00:00, 829.12it/s] Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1141.82it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 243.4s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[20/146] backward=40.48  (898s)
+[40/146] realtime=44.44 backward=53.33  (1076s)
+[60/146] realtime=52.77 backward=53.33  (1555s)
+[80/146] realtime=61.37 backward=53.33 forward=57.14  (2105s)
+[100/146] realtime=61.37 backward=53.33 forward=40.93  (2416s)
+[120/146] realtime=61.37 backward=53.33 forward=39.4  (2601s)
+[140/146] realtime=61.37 backward=53.33 forward=44.23  (2634s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 146  keep 51.08%  errors 0
+  Real-Time Visual Perception    61.37
+  Backward Tracing               53.33
+  Forward Active Responding      42.08
+  Overall                        52.26
+wrote runs/ovo_20pct/ovo_raw_logs.shard03.jsonl
+      runs/ovo_20pct/summary.shard03.json
+======================================================================

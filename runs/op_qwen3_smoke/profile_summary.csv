@@ -1,0 +1,18 @@
+scope,video_id,question_id,task_code,n_frames,n_planes,decode_ms_per_frame,openclip_ms_per_frame,vision_tower_ms_per_frame,qdp_rtar_ms_per_frame,llm_prefill_ms,llm_decode_ms,llm_decode_ms_per_token,n_new_tokens,visual_tokens_dense,visual_tokens_kept,avg_keep_rate,total_wall_clock_sec
+video,1Gf2W3eYP28,,,136,68,34.9417,3.4159,5.1451,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,1Gf2W3eYP28,instant_event_alert::1Gf2W3eYP28::2,instant_event_alert,136,68,0.0,0.0,0.0,0.7645,189.0762,40.3632,40.3632,63,12240,6551,0.5352,4.6414
+video,3MI7OZ-BlgE,,,133,66,47.1757,1.3767,3.8478,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,3MI7OZ-BlgE,instant_event_alert::3MI7OZ-BlgE::1,instant_event_alert,133,66,0.0,0.0,0.0,0.0739,124.74,41.8315,41.8315,131,11880,6264,0.5273,6.7795
+video,551-lWJPbow,,,60,30,20.4168,1.5778,3.8947,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,551-lWJPbow,instant_event_alert::551-lWJPbow::7,instant_event_alert,60,30,0.0,0.0,0.0,0.1582,88.2446,38.1159,38.1159,15,5400,2898,0.5367,0.844
+video,9DgHZ1bPTag,,,144,72,35.4109,1.2813,3.4961,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,9DgHZ1bPTag,instant_event_alert::9DgHZ1bPTag::6,instant_event_alert,144,72,0.0,0.0,0.0,0.0588,187.1463,36.9918,36.9918,77,12960,6244,0.4818,4.7763
+video,AD5MFhTOQp0,,,85,42,27.2935,1.3557,3.7231,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,AD5MFhTOQp0,instant_event_alert::AD5MFhTOQp0::5,instant_event_alert,85,42,0.0,0.0,0.0,0.0969,94.3657,38.4326,38.4326,101,7560,3868,0.5116,4.7325
+video,BY5mLsNhXS4,,,100,50,40.0189,1.3355,3.9777,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,BY5mLsNhXS4,instant_event_alert::BY5mLsNhXS4::4,instant_event_alert,100,50,0.0,0.0,0.0,0.1036,103.7806,41.7859,41.7859,18,9000,3178,0.3531,0.9331
+video,Q8FK2CtxfpY,,,527,263,38.6753,1.3599,3.5443,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,Q8FK2CtxfpY,instant_event_alert::Q8FK2CtxfpY::0,instant_event_alert,527,263,0.0,0.0,0.0,0.0176,458.0435,40.0765,40.0765,365,47340,15102,0.319,35.232
+video,UQA8DECaULg,,,69,34,31.5911,1.4438,4.1355,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,UQA8DECaULg,instant_event_alert::UQA8DECaULg::3,instant_event_alert,69,34,0.0,0.0,0.0,0.1293,67.3718,39.2519,39.2519,43,6120,3113,0.5087,1.897
+OVERALL,16 rows,8 questions,,1254,625,0.0,1.5885,3.8406,0.1344,296.6237,39.8432,39.8432,813,966060,337566,0.3494,94.981

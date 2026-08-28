@@ -1,0 +1,6 @@
+scope,video_id,question_id,task_code,n_frames,n_planes,decode_ms_per_frame,openclip_ms_per_frame,vision_tower_ms_per_frame,qdp_rtar_ms_per_frame,llm_prefill_ms,llm_decode_ms,llm_decode_ms_per_token,n_new_tokens,visual_tokens_dense,visual_tokens_kept,avg_keep_rate,total_wall_clock_sec
+video,y1k5C4QNqwY,,,288,144,20.5848,1.7924,14.3415,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,y1k5C4QNqwY,realtime_state_monitor::y1k5C4QNqwY::152,realtime_state_monitor,288,144,0.0,0.0,0.0,0.1867,398.5029,19.2897,19.2897,46,36288,18597,0.5125,8.1852
+video,zrZCkdWzqB8,,,164,82,24.0581,1.3839,14.3802,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,zrZCkdWzqB8,sequential_step_instruction::zrZCkdWzqB8::37,sequential_step_instruction,164,82,0.0,0.0,0.0,0.0564,188.0627,27.6791,27.6791,250,20664,10000,0.4839,8.5582
+OVERALL,4 rows,2 questions,,452,226,0.0,1.6442,14.3555,0.1394,331.162,26.3753,26.3753,296,408492,208810,0.5112,30.071

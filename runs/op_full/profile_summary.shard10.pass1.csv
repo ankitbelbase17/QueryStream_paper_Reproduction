@@ -1,0 +1,18 @@
+scope,video_id,question_id,task_code,n_frames,n_planes,decode_ms_per_frame,openclip_ms_per_frame,vision_tower_ms_per_frame,qdp_rtar_ms_per_frame,llm_prefill_ms,llm_decode_ms,llm_decode_ms_per_token,n_new_tokens,visual_tokens_dense,visual_tokens_kept,avg_keep_rate,total_wall_clock_sec
+video,vOTU-xNzQlo,,,133,66,20.9387,5.454,16.352,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,vOTU-xNzQlo,explicit_target_grounding::vOTU-xNzQlo::187,explicit_target_grounding,133,66,0.0,0.0,0.0,0.5137,209.4538,17.5403,17.5403,17,16632,8414,0.5059,1.9641
+video,vkDb-j2R5_s,,,220,110,8.9829,1.3794,14.4777,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,vkDb-j2R5_s,explicit_target_grounding::vkDb-j2R5_s::273,explicit_target_grounding,220,110,0.0,0.0,0.0,0.5106,274.2304,19.1974,19.1974,24,27720,14664,0.529,2.9296
+video,wRuu1XJ4NcE,,,60,30,12.7864,1.4506,15.5339,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,wRuu1XJ4NcE,sequential_step_instruction::wRuu1XJ4NcE::33,sequential_step_instruction,60,30,0.0,0.0,0.0,0.1452,44.6976,28.3272,28.3272,36,7560,3953,0.5229,1.0818
+video,wyEVCUU6AbA,,,246,123,5.0885,1.4368,12.9951,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,wyEVCUU6AbA,event_narration::wyEVCUU6AbA::160,event_narration,246,123,0.0,0.0,0.0,0.0343,226.7761,27.3457,27.3457,366,29520,12730,0.4312,11.9845
+sample,wyEVCUU6AbA,explicit_target_grounding::wyEVCUU6AbA::277,explicit_target_grounding,246,123,0.0,0.0,0.0,0.032,204.61,19.1472,19.1472,39,29520,12907,0.4372,3.6316
+video,xQqladBKjFU,,,220,110,16.986,1.3034,15.7012,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,xQqladBKjFU,sequential_step_instruction::xQqladBKjFU::104,sequential_step_instruction,220,110,0.0,0.0,0.0,0.037,196.8592,26.1485,26.1485,181,27720,14229,0.5133,6.8613
+video,xxkw6OT_flM,,,165,82,9.4872,1.2999,13.8029,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,xxkw6OT_flM,explicit_target_grounding::xxkw6OT_flM::283,explicit_target_grounding,165,82,0.0,0.0,0.0,0.0495,164.2019,18.2408,18.2408,25,20664,11239,0.5439,2.055
+sample,xxkw6OT_flM,semantic_condition_alert::xxkw6OT_flM::13,semantic_condition_alert,165,82,0.0,0.0,0.0,0.048,236.3444,26.691,26.691,289,20664,10657,0.5157,10.5088
+video,zOf8kNZWGGo,,,105,52,17.8066,1.4599,14.179,0.0,0.0,0.0,0.0,0,0,0,0.0,0.0
+sample,zOf8kNZWGGo,sequential_step_instruction::zOf8kNZWGGo::199,sequential_step_instruction,105,52,0.0,0.0,0.0,0.0766,79.473,26.6473,26.6473,149,13104,5997,0.4576,4.417
+OVERALL,16 rows,9 questions,,1149,573,0.0,1.8485,14.5418,0.1525,203.0891,26.1164,26.1164,1126,829380,391715,0.4723,67.3941

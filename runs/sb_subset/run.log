@@ -1,0 +1,30 @@
+[data] 500 videos / 2500 questions from /iopsstor/scratch/cscs/dbartaula/eval_7_10_8_19/simplestreamingeval/data/streamingbench/questions_real.json
+[load] OpenCLIP ViT-L-14/openai on cuda:0 ...
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+[load] OpenCLIP ready in 133.7s, grid (16, 16)
+[load] Qwen/Qwen2.5-VL-7B-Instruct on cuda:0 ...
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 16282.24it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 95/729 [00:00<00:00, 931.94it/s]Loading weights:  26%|██▌       | 189/729 [00:00<00:01, 477.46it/s]Loading weights:  34%|███▍      | 249/729 [00:00<00:01, 430.94it/s]Loading weights:  48%|████▊     | 349/729 [00:00<00:00, 578.55it/s]Loading weights:  65%|██████▌   | 475/729 [00:00<00:00, 763.88it/s]Loading weights:  80%|████████  | 585/729 [00:00<00:00, 853.65it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 794.09it/s]
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[load] backbone ready in 40.2s
+[decode] 6 prefetch threads, queue depth 3
+[budget] will stop starting new videos after 1500s
+[10/500 videos | 50 q | 6.3 min] acc 76.00%  keep 48.32%  unparsed 0  errors 0
+[20/500 videos | 100 q | 9.9 min] acc 75.00%  keep 50.27%  unparsed 0  errors 0
+[ WARN:0@2028.804] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 42706.285280 ms
+[NULL @ 0x4006ee2e0320] Invalid NAL unit size (17601 > 1730).
+[NULL @ 0x4006ee2e0320] missing picture in access unit with size 1734
+[h264 @ 0x4006ecef5cc0] Invalid NAL unit size (17601 > 1730).
+[h264 @ 0x4006ecef5cc0] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x4006ef02b520] stream 1, offset 0x84ba552: partial file
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x4006ef02b520] stream 0, offset 0x84ba6c6: partial file
+[ WARN:1@4675.372] global cap_ffmpeg_impl.hpp:453 _opencv_ffmpeg_interrupt_callback Stream timeout triggered after 60589.709022 ms
+[NULL @ 0x402b1c5fb520] Invalid NAL unit size (19697 > 2702).
+[NULL @ 0x402b1c5fb520] missing picture in access unit with size 2706
+[h264 @ 0x4006fc8c33a0] Invalid NAL unit size (19697 > 2702).
+[h264 @ 0x4006fc8c33a0] Error splitting the input into NAL units.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x4006ff859690] stream 0, offset 0xa36af65: partial file
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x4006ff859690] stream 1, offset 0xa36bc85: partial file

@@ -1,0 +1,24 @@
+[manifest] 443 calls / 443 samples, 33.5 h, missing_video=0
+[paired] 89 calls matched against runs/ovo_20pct (584 ids there)
+[shard] 1/4: 23 calls
+[todo] 23 calls remaining
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 94/729 [00:00<00:00, 936.15it/s]Loading weights:  26%|██▌       | 188/729 [00:00<00:00, 900.05it/s]Loading weights:  48%|████▊     | 351/729 [00:00<00:00, 1216.57it/s]Loading weights:  65%|██████▌   | 474/729 [00:00<00:00, 986.51it/s] Loading weights:  79%|███████▉  | 579/729 [00:00<00:00, 958.80it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1123.73it/s]
+[load] backbone = wyccccc/TimeChatOnline-7B
+[load] ready in 167.3s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (163903 > 131072). Running this sequence through the model will result in indexing errors
+[10/23] realtime=72.22  (412s)
+[20/23] realtime=62.59  (607s)
+
+======================================================================
+backbone wyccccc/TimeChatOnline-7B
+calls 23  keep 50.12%  errors 0
+  Real-Time Visual Perception    59.26
+  Overall                        n/a
+wrote runs/ovo_detail768/ovo_raw_logs.shard00.jsonl
+      runs/ovo_detail768/summary.shard00.json
+======================================================================

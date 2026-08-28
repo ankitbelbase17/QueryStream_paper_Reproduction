@@ -1,0 +1,28 @@
+[manifest] 1705/2700 samples runnable (678 videos, 34.1 h, 5831 GT triggers)
+[manifest] dropped: missing_video=995 task=0 audio=0 duration=0
+[subset] 40 samples, strata=task_audio, seed=0, prefer_short=1.0
+[shard] 1/1: 6 videos, 6 samples
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 16697.07it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  18%|█▊        | 131/729 [00:00<00:00, 1296.01it/s]Loading weights:  36%|███▌      | 261/729 [00:00<00:00, 1084.59it/s]Loading weights:  52%|█████▏    | 382/729 [00:00<00:00, 1135.83it/s]Loading weights:  71%|███████▏  | 521/729 [00:00<00:00, 1222.96it/s]Loading weights:  91%|█████████ | 662/729 [00:00<00:00, 1284.86it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1297.24it/s]
+[load] models ready in 84.4s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[1/6] -powI0eeLbw: 1 samples, 1 done, 92s
+[2/6] 3ga91VB8myI: 1 samples, 2 done, 93s
+[3/6] 4aw9-U_kkcs: 1 samples, 3 done, 94s
+[4/6] GEmaF4_W0RE: 1 samples, 4 done, 95s
+[5/6] HAFLLtAcRKY: 1 samples, 5 done, 97s
+[6/6] PI22nHgBKg4: 1 samples, 6 done, 98s
+
+========================================================================
+samples 6  emits 17  GT triggers 30
+TIME   P 0.5882  R 0.3333  F1 0.4255   (macro 0.45)
+JOINT  F1 lower bound 0.0851   (macro 0.0571)  -- judge pending
+token keep rate 0.4955
+wrote runs/op_smoke/omnipro_raw_logs.jsonl
+      runs/op_smoke/summary.json
+      runs/op_smoke/profile_summary.csv
+========================================================================

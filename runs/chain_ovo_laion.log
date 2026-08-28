@@ -1,0 +1,21 @@
+
+==========================================================================
+[stage ovo_laion] 0/584 rows present
+  The paper cites 'OpenCLIP-ViT-L/14 (Cherti et al. 2023)' -- the LAION paper, whose ViT-L/14 tag is laion2b_s32b_b82k. Every earlier run loaded the OpenAI weights through open_clip. QDP's M_sem and RTAR's relevance both come from this encoder, so it decides WHICH tokens survive; paired to runs/ovo_20pct on the same 584 calls so the encoder is the only variable.
+  worker 0 -> gpu 0
+  worker 1 -> gpu 1
+  worker 2 -> gpu 2
+  worker 3 -> gpu 3
+  worker 0 (gpu 0) exit=0 after 2039s
+  worker 1 (gpu 1) exit=0 after 2061s
+  worker 2 (gpu 2) exit=0 after 2061s
+  worker 3 (gpu 3) exit=0 after 2061s
+[stage ovo_laion] 584/584 rows after the pass
+[stage ovo_laion] score: score_ovo.py runs/ovo_laion
+   ============================================================================================
+   
+   wrote runs/ovo_laion/ovo_metrics.json
+[stage ovo_laion] report: make_ovo_report.py runs/ovo_laion
+   wrote runs/ovo_laion/QueryStream_OVOBench_report.pdf  (162 KB)
+
+[chain] done; all stages complete = True

@@ -1,0 +1,48 @@
+### Milestone 1 smoke_test
+usage: smoke_test.py [-h] [--device {cpu,cuda}] [-v] [-k FILTER]
+smoke_test.py: error: argument --device: invalid choice: 'cuda:0' (choose from cpu, cuda)
+
+### Milestone 2 test_integration
+  [32mPASS[0m  temporal coords keep the time_interval spacing (multiples of 4)  [2mt = [0, 4, 8, 12, 16][0m
+  [32mPASS[0m  coordinates are absolute, not renumbered 0..K-1  [2mh = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11][0m
+  [32mPASS[0m  frame_ids match the M-ROPE temporal column ordering
+
+[34m[7] Generate from pruned tokens[0m
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+  visual tokens 610 | prefill 636 | rope_delta -589 | 1513 ms
+  peak during generate : 16897.3 MB
+  [32mresponse[0m: "The image you provided shows a simple, abstract representation of a green bottle with a yellow cap. The bottle appears to be in the process of being opened, as indicated by the red square that seems to be moving towards the bottle's opening."
+  [32mPASS[0m  generation produced non-empty text
+  [32mPASS[0m  prefill contains exactly K video pad tokens
+  generate() spike over buffering steady-state: 126.4 MB
+  [32mPASS[0m  generate() allocates more than a buffering step  [2mpeak 16897.3 MB > pre-gen 16770.9 MB[0m
+
+[34m[7b] Dense control (100% keep, same path)[0m
+  visual tokens 1260 | 1446 ms
+  [32mresponse[0m: "The image you've provided appears to be a simple, abstract representation of two red squares and one green bottle. The green bottle has a yellow cap, which might suggest it is a bottle of some kind, possibly a drink or medicine. However"
+  [32mPASS[0m  dense control also generates
+  [32mPASS[0m  pruned run used strictly fewer visual tokens  [2m610 vs 1260[0m
+
+====================================================================================
+[32mALL 29 CHECKS PASSED[0m
+====================================================================================
+
+
+### Milestone 3 equivalence (clip-batch 1, exact)
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+[data] /iopsstor/scratch/cscs/dbartaula/querystream/tests/data/sample_bottle.mp4: 10 frames at 1.0 fps, 640x360
+
+[equivalence] 10 frames, 5 planes, 182/320 tokens kept (56.88%)
+  PASS  frame count matches   [10 vs 10]
+  PASS  CLIP-grid QDP keep rate matches to logging precision   [max |diff| = 5.00e-07]
+  PASS  relevance_raw matches to logging precision   [max |diff| = 4.97e-07]
+  PASS  calibrated relevance matches to logging precision   [max |diff| = 7.86e-07]
+  PASS  R_t / D_t / T_t identical per frame   [3 triggers]
+  PASS  plane mask shape matches   [(5, 64) vs (5, 64)]
+  PASS  backbone plane masks bitwise identical   [0 differing entries]
+  PASS  kept token count matches   [182 vs 182]
+  PASS  dense token count matches   [320 vs 320]
+  PASS  flushed M-ROPE coordinates identical   [(182, 3)]
+
+ALL 10/10 EQUIVALENCE CHECKS PASSED

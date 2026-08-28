@@ -1,0 +1,44 @@
+[job 3178994] host=nid007491 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+0, NVIDIA GH200 120GB, 97274 MiB
+1, NVIDIA GH200 120GB, 97274 MiB
+2, NVIDIA GH200 120GB, 97275 MiB
+3, NVIDIA GH200 120GB, 97276 MiB
+[job 3178994] host=nid007491 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3178994] host=nid007491 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3178994] host=nid007491 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+[job 3178994] host=nid007491 nodes=1 tasks=4
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean  mask_space=score pool=mean relevance=running_minmax keep=qdp
+0, NVIDIA GH200 120GB, 97274 MiB
+1, NVIDIA GH200 120GB, 97274 MiB
+2, NVIDIA GH200 120GB, 97275 MiB
+3, NVIDIA GH200 120GB, 97276 MiB
+0, NVIDIA GH200 120GB, 97274 MiB
+1, NVIDIA GH200 120GB, 97274 MiB
+2, NVIDIA GH200 120GB, 97275 MiB
+3, NVIDIA GH200 120GB, 97276 MiB
+0, NVIDIA GH200 120GB, 97274 MiB
+1, NVIDIA GH200 120GB, 97274 MiB
+2, NVIDIA GH200 120GB, 97275 MiB
+3, NVIDIA GH200 120GB, 97276 MiB
+0, NVIDIA GH200 120GB, 97274 MiB
+1, NVIDIA GH200 120GB, 97274 MiB
+2, NVIDIA GH200 120GB, 97275 MiB
+[worker 2/4] gpu=2 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard2
+3, NVIDIA GH200 120GB, 97276 MiB
+[worker 0/4] gpu=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard0
+[worker 1/4] gpu=1 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard1
+[worker 3/4] gpu=3 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard3
+/iopsstor/scratch/cscs/dbartaula/querystream/scripts/submit_cluster_eval.sh: line 109: 94799 Killed                  CUDA_VISIBLE_DEVICES=$local_gpu "$PYTHON" "$REPO/eval_streaming.py" --anno "$ANNO" --video-dir "$VIDEOS" --output-dir "$out" --device cuda:0 --num-shards "$num_shards" --shard-id "$shard_id" --resume --mask-space "$MASK_SPACE" --pool "$POOL" --relevance-mode "$RELEVANCE_MODE" --keep-mode "$KEEP_MODE" --alpha "$ALPHA" --tau-temp "$TAU_TEMP" --tau-rel "$TAU_REL" --tau-den "$TAU_DEN" --fps "$FPS" --max-pixels "$MAX_PIXELS" --max-new-tokens "$MAX_NEW_TOKENS" --clip-batch "$CLIP_BATCH" --vision-batch-planes "$VISION_BATCH_PLANES" --decode-workers "$DECODE_WORKERS" --prefetch-depth "$PREFETCH_DEPTH" --judge "$JUDGE" --judge-model "$JUDGE_MODEL" --progress-every 5 "${EXTRA[@]}" > "$out/worker.log" 2>&1
+[worker 0] exit=137 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard0/worker.log
+[2026-08-25T02:04:01.827] error: Detected 1 oom_kill event in StepId=3178994.0. Some of the step tasks have been OOM Killed.
+srun: error: nid007491: task 0: Out Of Memory
+/iopsstor/scratch/cscs/dbartaula/querystream/scripts/submit_cluster_eval.sh: line 109: 94794 Killed                  CUDA_VISIBLE_DEVICES=$local_gpu "$PYTHON" "$REPO/eval_streaming.py" --anno "$ANNO" --video-dir "$VIDEOS" --output-dir "$out" --device cuda:0 --num-shards "$num_shards" --shard-id "$shard_id" --resume --mask-space "$MASK_SPACE" --pool "$POOL" --relevance-mode "$RELEVANCE_MODE" --keep-mode "$KEEP_MODE" --alpha "$ALPHA" --tau-temp "$TAU_TEMP" --tau-rel "$TAU_REL" --tau-den "$TAU_DEN" --fps "$FPS" --max-pixels "$MAX_PIXELS" --max-new-tokens "$MAX_NEW_TOKENS" --clip-batch "$CLIP_BATCH" --vision-batch-planes "$VISION_BATCH_PLANES" --decode-workers "$DECODE_WORKERS" --prefetch-depth "$PREFETCH_DEPTH" --judge "$JUDGE" --judge-model "$JUDGE_MODEL" --progress-every 5 "${EXTRA[@]}" > "$out/worker.log" 2>&1
+[worker 2] exit=137 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard2/worker.log
+/iopsstor/scratch/cscs/dbartaula/querystream/scripts/submit_cluster_eval.sh: line 109: 94800 Killed                  CUDA_VISIBLE_DEVICES=$local_gpu "$PYTHON" "$REPO/eval_streaming.py" --anno "$ANNO" --video-dir "$VIDEOS" --output-dir "$out" --device cuda:0 --num-shards "$num_shards" --shard-id "$shard_id" --resume --mask-space "$MASK_SPACE" --pool "$POOL" --relevance-mode "$RELEVANCE_MODE" --keep-mode "$KEEP_MODE" --alpha "$ALPHA" --tau-temp "$TAU_TEMP" --tau-rel "$TAU_REL" --tau-den "$TAU_DEN" --fps "$FPS" --max-pixels "$MAX_PIXELS" --max-new-tokens "$MAX_NEW_TOKENS" --clip-batch "$CLIP_BATCH" --vision-batch-planes "$VISION_BATCH_PLANES" --decode-workers "$DECODE_WORKERS" --prefetch-depth "$PREFETCH_DEPTH" --judge "$JUDGE" --judge-model "$JUDGE_MODEL" --progress-every 5 "${EXTRA[@]}" > "$out/worker.log" 2>&1
+[worker 1] exit=137 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_score_mean/shard1/worker.log
+[2026-08-25T02:35:24.247] error: *** STEP 3178994.0 ON nid007491 CANCELLED AT 2026-08-25T02:35:24 DUE to SIGNAL Terminated ***
+[2026-08-25T02:35:24.248] error: *** JOB 3178994 ON nid007491 CANCELLED AT 2026-08-25T02:35:24 DUE to SIGNAL Terminated ***

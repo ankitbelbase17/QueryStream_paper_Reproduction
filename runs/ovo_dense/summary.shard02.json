@@ -1,0 +1,196 @@
+{
+  "run_name": "ovo_dense",
+  "shard": {
+    "id": 2,
+    "n": 4
+  },
+  "backbone": "wyccccc/TimeChatOnline-7B",
+  "calls_this_pass": 146,
+  "calls_in_jsonl": 146,
+  "errors": 0,
+  "budget_hit": false,
+  "wall_clock_sec": 2224.6,
+  "manifest": {
+    "n_samples_total": 1640,
+    "n_samples_kept": 1640,
+    "n_calls": 3035,
+    "video_seconds": 640828.04,
+    "dropped_missing_video": 0,
+    "dropped_task": 0,
+    "by_task_samples": {
+      "ACR": 109,
+      "HLD": 186,
+      "ATR": 116,
+      "CRR": 48,
+      "STU": 178,
+      "EPM": 297,
+      "OCR": 149,
+      "ASI": 148,
+      "REC": 82,
+      "OJR": 184,
+      "FPD": 101,
+      "SSR": 42
+    },
+    "by_task_calls": {
+      "EPM": 297,
+      "HLD": 186,
+      "ASI": 148,
+      "STU": 178,
+      "OJR": 184,
+      "ATR": 116,
+      "FPD": 101,
+      "ACR": 109,
+      "OCR": 149,
+      "CRR": 240,
+      "SSR": 629,
+      "REC": 698
+    }
+  },
+  "selection": {
+    "mode": "full",
+    "n_calls": 584,
+    "paired_with": "runs/ovo_20pct",
+    "dropped_unpaired": 2451
+  },
+  "token_keep_rate": 1.0,
+  "metrics": {
+    "per_task": {
+      "OCR": {
+        "n": 7,
+        "correct": 3,
+        "acc": 42.86,
+        "strict_letter_acc": 28.57
+      },
+      "ACR": {
+        "n": 6,
+        "correct": 5,
+        "acc": 83.33,
+        "strict_letter_acc": 66.67
+      },
+      "ATR": {
+        "n": 5,
+        "correct": 2,
+        "acc": 40.0,
+        "strict_letter_acc": 0.0
+      },
+      "STU": {
+        "n": 9,
+        "correct": 5,
+        "acc": 55.56,
+        "strict_letter_acc": 33.33
+      },
+      "FPD": {
+        "n": 5,
+        "correct": 3,
+        "acc": 60.0,
+        "strict_letter_acc": 60.0
+      },
+      "OJR": {
+        "n": 10,
+        "correct": 4,
+        "acc": 40.0,
+        "strict_letter_acc": 40.0
+      },
+      "EPM": {
+        "n": 15,
+        "correct": 9,
+        "acc": 60.0,
+        "strict_letter_acc": 26.67
+      },
+      "ASI": {
+        "n": 7,
+        "correct": 3,
+        "acc": 42.86,
+        "strict_letter_acc": 42.86
+      },
+      "HLD": {
+        "n": 9,
+        "correct": 0,
+        "acc": 0.0,
+        "strict_letter_acc": 0.0
+      },
+      "REC": {
+        "n": 29,
+        "correct": 12,
+        "acc": 41.38
+      },
+      "SSR": {
+        "n": 31,
+        "correct": 8,
+        "acc": 25.81
+      },
+      "CRR": {
+        "n": 13,
+        "correct": 5,
+        "acc": 38.46
+      }
+    },
+    "category": {
+      "realtime": 53.62,
+      "backward": 34.29,
+      "forward": 35.22
+    },
+    "category_tasks": {
+      "realtime": [
+        "OCR",
+        "ACR",
+        "ATR",
+        "STU",
+        "FPD",
+        "OJR"
+      ],
+      "backward": [
+        "EPM",
+        "ASI",
+        "HLD"
+      ],
+      "forward": [
+        "REC",
+        "SSR",
+        "CRR"
+      ]
+    },
+    "overall": 41.04,
+    "overall_is_partial": false,
+    "n_calls": 146,
+    "n_null_responses": 0,
+    "note": "Overall is the mean of the three category averages, each a macro mean over its tasks -- OVO-Bench's own aggregation. It is withheld (None) unless all three categories are present, because a two-category mean is not the published quantity."
+  },
+  "config": {
+    "fps": 1.0,
+    "encoder": "ViT-L-14/openai",
+    "backbone": "wyccccc/TimeChatOnline-7B",
+    "mask_space": "score",
+    "pool": "mean",
+    "keep_mode": "dense",
+    "gate_mode": "full",
+    "relevance_mode": "running_minmax",
+    "alpha": 0.1,
+    "tau_temp": 0.9,
+    "tau_rel": 0.6,
+    "tau_den": 0.15,
+    "max_pixels_side": 448,
+    "clip_batch": 8,
+    "decode_workers": 1
+  },
+  "profile": {
+    "scope": "OVERALL",
+    "video_id": "146 rows",
+    "question_id": "146 questions",
+    "task_code": "",
+    "n_frames": 32845,
+    "n_planes": 16382,
+    "decode_ms_per_frame": 57.7751,
+    "openclip_ms_per_frame": 1.8379,
+    "vision_tower_ms_per_frame": 17.1612,
+    "qdp_rtar_ms_per_frame": 0.1847,
+    "llm_prefill_ms": 1646.8426,
+    "llm_decode_ms": 29.4646,
+    "llm_decode_ms_per_token": 29.4646,
+    "n_new_tokens": 488,
+    "visual_tokens_dense": 3341589,
+    "visual_tokens_kept": 3341589,
+    "avg_keep_rate": 1.0,
+    "total_wall_clock_sec": 2090.298
+  }
+}

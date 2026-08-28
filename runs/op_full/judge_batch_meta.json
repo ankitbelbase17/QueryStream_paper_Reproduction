@@ -1,0 +1,8 @@
+{
+  "batch_id": "batch_6a8c894a07988190bb9aeb5fc2589f63",
+  "input_file_id": "file-A1aN7JXQNPFoaqGnXnJdGf",
+  "status": "validating",
+  "n_requests": 965,
+  "submitted_at": 1787595083.3396554,
+  "model": "gpt-4o-mini"
+}

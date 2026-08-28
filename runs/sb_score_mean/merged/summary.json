@@ -1,0 +1,71 @@
+{
+  "tasks": {
+    "OP": {
+      "total": 369,
+      "correct": 268,
+      "acc": 72.62872628726288
+    },
+    "CR": {
+      "total": 128,
+      "correct": 101,
+      "acc": 78.90625
+    },
+    "CS": {
+      "total": 317,
+      "correct": 244,
+      "acc": 76.97160883280758
+    },
+    "ATP": {
+      "total": 312,
+      "correct": 228,
+      "acc": 73.07692307692308
+    },
+    "EU": {
+      "total": 159,
+      "correct": 116,
+      "acc": 72.95597484276729
+    },
+    "TR": {
+      "total": 321,
+      "correct": 223,
+      "acc": 69.47040498442368
+    },
+    "PR": {
+      "total": 108,
+      "correct": 82,
+      "acc": 75.92592592592592
+    },
+    "SU": {
+      "total": 246,
+      "correct": 146,
+      "acc": 59.34959349593496
+    },
+    "ACP": {
+      "total": 352,
+      "correct": 223,
+      "acc": 63.35227272727273
+    },
+    "CT": {
+      "total": 188,
+      "correct": 104,
+      "acc": 55.319148936170215
+    }
+  },
+  "overall": {
+    "total": 2500,
+    "correct": 1735,
+    "acc": 69.4
+  },
+  "token_keep_rate_pct": 49.40265017044552,
+  "visual_tokens_kept": 41058754,
+  "visual_tokens_dense": 83110428,
+  "unparsed": 0,
+  "errors": 0,
+  "run": {
+    "shards": 4,
+    "malformed_lines": 0,
+    "questions": 2500,
+    "expected": 2500,
+    "coverage_pct": 100.0
+  }
+}

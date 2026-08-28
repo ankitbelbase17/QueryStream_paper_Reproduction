@@ -1,0 +1,56 @@
+{
+  "tasks": {
+    "OP": {
+      "total": 6,
+      "correct": 4,
+      "acc": 66.66666666666667
+    },
+    "CR": {
+      "total": 3,
+      "correct": 3,
+      "acc": 100.0
+    },
+    "ATP": {
+      "total": 4,
+      "correct": 3,
+      "acc": 75.0
+    },
+    "EU": {
+      "total": 3,
+      "correct": 0,
+      "acc": 0.0
+    },
+    "TR": {
+      "total": 5,
+      "correct": 3,
+      "acc": 60.0
+    },
+    "SU": {
+      "total": 1,
+      "correct": 1,
+      "acc": 100.0
+    },
+    "ACP": {
+      "total": 3,
+      "correct": 3,
+      "acc": 100.0
+    }
+  },
+  "overall": {
+    "total": 25,
+    "correct": 17,
+    "acc": 68.0
+  },
+  "token_keep_rate_pct": 53.887339462176776,
+  "visual_tokens_kept": 187806,
+  "visual_tokens_dense": 348516,
+  "unparsed": 0,
+  "errors": 0,
+  "run": {
+    "shards": 1,
+    "malformed_lines": 0,
+    "questions": 25,
+    "expected": 25,
+    "coverage_pct": 100.0
+  }
+}

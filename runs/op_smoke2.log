@@ -1,0 +1,28 @@
+[manifest] 1200/2700 samples runnable (771 videos, 43.7 h, 3389 GT triggers)
+[manifest] dropped: missing_video=0 task=1500 audio=0 duration=0
+[subset] 12 samples, strata=task_audio, seed=0, prefer_short=1.0
+[shard] 1/1: 6 videos, 8 samples
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 56679.78it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   9%|▉         | 69/729 [00:00<00:00, 678.16it/s]Loading weights:  19%|█▉        | 137/729 [00:00<00:01, 551.12it/s]Loading weights:  29%|██▉       | 211/729 [00:00<00:00, 627.22it/s]Loading weights:  38%|███▊      | 276/729 [00:00<00:00, 618.78it/s]Loading weights:  50%|█████     | 366/729 [00:00<00:00, 680.10it/s]Loading weights:  65%|██████▍   | 471/729 [00:00<00:00, 796.15it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 956.08it/s]
+[load] models ready in 62.7s
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[1/6] 2aw1yFx9qeo: 1 samples, 1 done, 68s
+[2/6] 64yLR2qTZcg: 2 samples, 3 done, 72s
+[3/6] CA1rPvS48To: 1 samples, 4 done, 75s
+[4/6] GEmaF4_W0RE: 1 samples, 5 done, 76s
+[5/6] hKkycSsq__E: 1 samples, 6 done, 76s
+[6/6] t-sHfZ9upSs: 2 samples, 8 done, 80s
+
+========================================================================
+samples 8  emits 14  GT triggers 17
+TIME   P 0.5714  R 0.4706  F1 0.5161   (macro 0.5)
+JOINT  F1 lower bound 0.129   (macro 0.1852)  -- judge pending
+token keep rate 0.5185
+wrote runs/op_smoke2/omnipro_raw_logs.jsonl
+      runs/op_smoke2/summary.json
+      runs/op_smoke2/profile_summary.csv
+========================================================================

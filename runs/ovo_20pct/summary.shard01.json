@@ -1,0 +1,212 @@
+{
+  "run_name": "ovo_20pct",
+  "shard": {
+    "id": 1,
+    "n": 4
+  },
+  "backbone": "wyccccc/TimeChatOnline-7B",
+  "calls_this_pass": 146,
+  "calls_in_jsonl": 146,
+  "errors": 1,
+  "budget_hit": false,
+  "wall_clock_sec": 2641.2,
+  "manifest": {
+    "n_samples_total": 1640,
+    "n_samples_kept": 1640,
+    "n_calls": 3035,
+    "video_seconds": 640828.04,
+    "dropped_missing_video": 0,
+    "dropped_task": 0,
+    "by_task_samples": {
+      "REC": 82,
+      "STU": 178,
+      "EPM": 297,
+      "HLD": 186,
+      "ACR": 109,
+      "OJR": 184,
+      "ASI": 148,
+      "OCR": 149,
+      "ATR": 116,
+      "FPD": 101,
+      "CRR": 48,
+      "SSR": 42
+    },
+    "by_task_calls": {
+      "EPM": 297,
+      "HLD": 186,
+      "ASI": 148,
+      "STU": 178,
+      "OJR": 184,
+      "ATR": 116,
+      "FPD": 101,
+      "ACR": 109,
+      "OCR": 149,
+      "CRR": 240,
+      "SSR": 629,
+      "REC": 698
+    }
+  },
+  "selection": {
+    "mode": "stratified_by_task",
+    "fraction": 0.2,
+    "seed": 0,
+    "n_calls": 584,
+    "n_samples": 328,
+    "samples_per_task": {
+      "ACR": "22/109",
+      "ASI": "30/148",
+      "ATR": "23/116",
+      "CRR": "10/48",
+      "EPM": "59/297",
+      "FPD": "20/101",
+      "HLD": "37/186",
+      "OCR": "30/149",
+      "OJR": "37/184",
+      "REC": "16/82",
+      "SSR": "8/42",
+      "STU": "36/178"
+    },
+    "video_seconds": 135228.6
+  },
+  "token_keep_rate": 0.510707,
+  "metrics": {
+    "per_task": {
+      "OCR": {
+        "n": 8,
+        "correct": 5,
+        "acc": 62.5,
+        "strict_letter_acc": 50.0
+      },
+      "ACR": {
+        "n": 5,
+        "correct": 2,
+        "acc": 40.0,
+        "strict_letter_acc": 40.0
+      },
+      "ATR": {
+        "n": 6,
+        "correct": 1,
+        "acc": 16.67,
+        "strict_letter_acc": 16.67
+      },
+      "STU": {
+        "n": 9,
+        "correct": 2,
+        "acc": 22.22,
+        "strict_letter_acc": 22.22
+      },
+      "FPD": {
+        "n": 4,
+        "correct": 4,
+        "acc": 100.0,
+        "strict_letter_acc": 100.0
+      },
+      "OJR": {
+        "n": 9,
+        "correct": 7,
+        "acc": 77.78,
+        "strict_letter_acc": 55.56
+      },
+      "EPM": {
+        "n": 15,
+        "correct": 9,
+        "acc": 60.0,
+        "strict_letter_acc": 40.0
+      },
+      "ASI": {
+        "n": 8,
+        "correct": 6,
+        "acc": 75.0,
+        "strict_letter_acc": 75.0
+      },
+      "HLD": {
+        "n": 9,
+        "correct": 0,
+        "acc": 0.0,
+        "strict_letter_acc": 0.0
+      },
+      "REC": {
+        "n": 29,
+        "correct": 11,
+        "acc": 37.93
+      },
+      "SSR": {
+        "n": 31,
+        "correct": 10,
+        "acc": 32.26
+      },
+      "CRR": {
+        "n": 12,
+        "correct": 3,
+        "acc": 25.0
+      }
+    },
+    "category": {
+      "realtime": 53.2,
+      "backward": 45.0,
+      "forward": 31.73
+    },
+    "category_tasks": {
+      "realtime": [
+        "OCR",
+        "ACR",
+        "ATR",
+        "STU",
+        "FPD",
+        "OJR"
+      ],
+      "backward": [
+        "EPM",
+        "ASI",
+        "HLD"
+      ],
+      "forward": [
+        "REC",
+        "SSR",
+        "CRR"
+      ]
+    },
+    "overall": 43.31,
+    "overall_is_partial": false,
+    "n_calls": 145,
+    "n_null_responses": 0,
+    "note": "Overall is the mean of the three category averages, each a macro mean over its tasks -- OVO-Bench's own aggregation. It is withheld (None) unless all three categories are present, because a two-category mean is not the published quantity."
+  },
+  "config": {
+    "fps": 1.0,
+    "encoder": "ViT-L-14/openai",
+    "backbone": "wyccccc/TimeChatOnline-7B",
+    "mask_space": "score",
+    "pool": "mean",
+    "keep_mode": "qdp",
+    "gate_mode": "full",
+    "relevance_mode": "running_minmax",
+    "alpha": 0.1,
+    "tau_temp": 0.9,
+    "tau_rel": 0.6,
+    "tau_den": 0.15,
+    "max_pixels_side": 448,
+    "clip_batch": 8,
+    "decode_workers": 1
+  },
+  "profile": {
+    "scope": "OVERALL",
+    "video_id": "146 rows",
+    "question_id": "146 questions",
+    "task_code": "",
+    "n_frames": 33434,
+    "n_planes": 16679,
+    "decode_ms_per_frame": 67.5559,
+    "openclip_ms_per_frame": 1.6565,
+    "vision_tower_ms_per_frame": 17.1718,
+    "qdp_rtar_ms_per_frame": 0.2049,
+    "llm_prefill_ms": 620.946,
+    "llm_decode_ms": 27.5015,
+    "llm_decode_ms_per_token": 27.5015,
+    "n_new_tokens": 459,
+    "visual_tokens_dense": 3440095,
+    "visual_tokens_kept": 1756879,
+    "avg_keep_rate": 0.5107,
+    "total_wall_clock_sec": 2393.8418
+  }
+}

@@ -1,0 +1,39 @@
+[resume] 120 questions already logged; they will be skipped
+[data] 500 videos / 2500 questions from /iopsstor/scratch/cscs/dbartaula/eval_7_10_8_19/simplestreamingeval/data/streamingbench/questions_real.json
+[load] OpenCLIP ViT-L-14/openai on cuda:0 ...
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+[load] OpenCLIP ready in 136.5s, grid (16, 16)
+[load] Qwen/Qwen2.5-VL-7B-Instruct on cuda:0 ...
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 2800.68it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 96/729 [00:00<00:00, 894.97it/s]Loading weights:  26%|██▋       | 192/729 [00:00<00:00, 904.38it/s]Loading weights:  39%|███▉      | 283/729 [00:00<00:00, 880.33it/s]Loading weights:  60%|█████▉    | 434/729 [00:00<00:00, 1116.34it/s]Loading weights:  77%|███████▋  | 563/729 [00:00<00:00, 1158.50it/s]Loading weights: 100%|██████████| 729/729 [00:00<00:00, 1170.00it/s]
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/transformers/generation/utils.py:1113: UserWarning: Passing `repetition_penalty` with `inputs_embeds` and without `input_ids` to `generate` will apply the penalty only to newly generated tokens, not to the prompt.
+  warnings.warn(
+[load] backbone ready in 32.6s
+[decode] 3 prefetch threads, queue depth 2
+[budget] will stop starting new videos after 1200s
+[10/500 videos | 50 q | 6.4 min] acc 68.82%  keep 50.58%  unparsed 0  errors 0
+[20/500 videos | 100 q | 14.2 min] acc 68.64%  keep 50.44%  unparsed 0  errors 0
+[30/500 videos | 150 q | 20.2 min] acc 71.11%  keep 50.02%  unparsed 0  errors 0
+[budget] 1200s reached after 30 videos; stopping cleanly
+
+Model                            Keep     OP     CR     CS    ATP     EU     TR     PR     SU    ACP     CT     All
+-------------------------------------------------------------------------------------------------------------------
+QueryStream (ours)              50.0%  66.67  75.00  74.29  82.50  72.73  62.96  83.33  62.50  67.31  73.33   71.11
+  paper: QueryStream-7B (57.2% keep)         82.38  84.38  79.18  82.37  77.99  81.31  78.70  65.04  69.32  47.34   75.32
+  paper: Qwen2.5-VL-7B (full tokens)         78.32  80.47  78.86  80.45  76.73  78.50  79.63  63.41  66.19  53.19   73.68
+
+  n=270  correct=192  unparsed=0  errors=0
+  token keep rate = 4590808/9178263 = 50.02%
+
+  wall clock        20.5 min
+  openclip          1.21 ms/frame
+  vision tower      22.56 ms/frame
+  qdp+rtar          0.277 ms/frame
+  llm prefill/TTFT  939.6 ms/question
+  llm decode        27.2 ms/question (27.2 ms/token)
+
+  jsonl   runs/sb_subset/eval_raw_logs.jsonl
+  csv     runs/sb_subset/profile_summary.csv
+  summary runs/sb_subset/summary.json

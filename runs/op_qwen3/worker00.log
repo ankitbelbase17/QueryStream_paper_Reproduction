@@ -1,0 +1,403 @@
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/4: 316 videos, 689 samples
+[todo] 316 videos still to run (689 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:  21%|██        | 156/750 [00:00<00:00, 1540.24it/s]Loading weights:  41%|████▏     | 311/750 [00:00<00:00, 957.78it/s] Loading weights:  61%|██████    | 456/750 [00:00<00:00, 1125.30it/s]Loading weights:  99%|█████████▊| 739/750 [00:00<00:00, 1682.18it/s]Loading weights: 100%|██████████| 750/750 [00:00<00:00, 1474.77it/s]
+[load] models ready in 112.7s
+[1/316] -4ips6KXoBE: 1 samples, 1 done, 121s
+[2/316] -ZvLZrWsFAc: 3 samples, 4 done, 150s
+[3/316] -l9fxSCGJ4M: 4 samples, 8 done, 165s
+[4/316] 02zNKcnf4OI: 2 samples, 10 done, 167s
+[5/316] 0J0Tjqc4efY: 4 samples, 14 done, 221s
+[6/316] 0cfm3b0pyhQ: 3 samples, 17 done, 233s
+[7/316] 0zoM5qZTjRo: 3 samples, 20 done, 258s
+[8/316] 18G1U7_vSJM: 2 samples, 22 done, 260s
+[9/316] 1Gf2W3eYP28: 4 samples, 26 done, 279s
+[10/316] 1Mv--tSZevw: 3 samples, 29 done, 296s
+[11/316] 1Q5uQosSzJE: 1 samples, 30 done, 311s
+[12/316] 1YyqVC2dUjk: 1 samples, 31 done, 321s
+[13/316] 1__ERVgs9Tc: 4 samples, 35 done, 416s
+[14/316] 1isJkaVast4: 1 samples, 36 done, 463s
+[15/316] 1yoXMBWGcwI: 1 samples, 37 done, 471s
+[16/316] 26BT7YzpzQs: 2 samples, 39 done, 606s
+[17/316] 28bX9kzKMys: 3 samples, 42 done, 622s
+[18/316] 2Crk3CL5-Ec: 1 samples, 43 done, 627s
+[19/316] 2Vh-xCGMLzg: 5 samples, 48 done, 643s
+[20/316] 2cSIAapg7rU: 6 samples, 54 done, 757s
+[21/316] 2hBivDZBrFg: 1 samples, 55 done, 759s
+[22/316] 2lJMU_78m7A: 1 samples, 56 done, 759s
+[23/316] 2nuCU7AeR_o: 2 samples, 58 done, 860s
+[24/316] 2zaCRi7-eW8: 5 samples, 63 done, 973s
+[25/316] 3DG5It4WURc: 1 samples, 64 done, 985s
+[26/316] 3J8zCIPhqAM: 2 samples, 66 done, 1100s
+[27/316] 3QEZyCTSytU: 3 samples, 69 done, 1200s
+[28/316] 3fVbsvFPcZ8: 1 samples, 70 done, 1227s
+[29/316] 3rK_AhbGmHs: 5 samples, 75 done, 1258s
+[30/316] 40SL-m4u-LQ: 3 samples, 78 done, 1334s
+[31/316] 4JwMlFMzh5Y: 5 samples, 83 done, 1372s
+[32/316] 4bveRsmZyXI: 2 samples, 85 done, 1457s
+[33/316] 55Ijvvme2kg: 4 samples, 89 done, 1537s
+[34/316] 5JHKOIfy9aY: 3 samples, 92 done, 1632s
+[35/316] 5WTOiYp-uPM: 2 samples, 94 done, 1683s
+[36/316] 5_LRMz5WxUk: 2 samples, 96 done, 1715s
+[37/316] 5sO2W10iiW0: 1 samples, 97 done, 1723s
+[38/316] 6Hb8uzHLA2Q: 5 samples, 102 done, 1749s
+[39/316] 6RfXt26r1kQ: 3 samples, 105 done, 1758s
+[40/316] 6bElihFrX9A: 1 samples, 106 done, 1780s
+[41/316] 6o0sN5psy1I: 3 samples, 109 done, 1825s
+[42/316] 714uCusHL4o: 1 samples, 110 done, 1828s
+[43/316] 7GkZ7PLMaZk: 4 samples, 114 done, 1833s
+[44/316] 7XJ6Ss2i60Q: 3 samples, 117 done, 1953s
+[45/316] 7sePL9jdSm4: 3 samples, 120 done, 1977s
+[46/316] 8-rZjTmOcdU: 2 samples, 122 done, 2010s
+[47/316] 8Jy0R7KfemM: 3 samples, 125 done, 2046s
+[48/316] 8cv_g1oYF3M: 4 samples, 129 done, 2099s
+[49/316] 8nFoJWmeLoM: 2 samples, 131 done, 2100s
+[50/316] 8wi2N5opUVE: 3 samples, 134 done, 2132s
+[51/316] 95Emw6MdmHE: 1 samples, 135 done, 2148s
+[52/316] 9DgHZ1bPTag: 3 samples, 138 done, 2192s
+[53/316] 9PrAJGLXUuM: 4 samples, 142 done, 2302s
+[54/316] 9b793ImfzUM: 6 samples, 148 done, 2321s
+[55/316] 9jXQn427ARA: 1 samples, 149 done, 2337s
+[56/316] A0l8fhxoWpY: 5 samples, 154 done, 2380s
+[57/316] APXXDw7BWCg: 1 samples, 155 done, 2383s
+[58/316] AfHeUd8PLOM: 2 samples, 157 done, 2417s
+[59/316] AnBixRgkIGY: 6 samples, 163 done, 2437s
+[60/316] AwoumR9RiHU: 4 samples, 167 done, 2451s
+[61/316] B8RZB05u95U: 1 samples, 168 done, 2477s
+[62/316] BF54mfTpd0Q: 1 samples, 169 done, 2499s
+[63/316] BcFpM4upfxo: 4 samples, 173 done, 2509s
+[64/316] Bo5pzWMsF4A: 6 samples, 179 done, 2613s
+[65/316] BvoAt3KG7PY: 1 samples, 180 done, 2621s
+[66/316] CA1rPvS48To: 3 samples, 183 done, 2628s
+[67/316] CGqjKsJCDVw: 4 samples, 187 done, 2643s
+[68/316] CL4qjTsj0i8: 3 samples, 190 done, 2688s
+[69/316] CQrEyrW2REc: 3 samples, 193 done, 2710s
+[70/316] Cp4TkiHd9wM: 1 samples, 194 done, 2724s
+[71/316] D3bmHjjrnvw: 2 samples, 196 done, 2824s
+[72/316] DHI_NLr_MQY: 2 samples, 198 done, 2864s
+[73/316] DMhR1dDjBpc: 1 samples, 199 done, 2870s
+[74/316] DYQMViyqMnU: 3 samples, 202 done, 2901s
+[75/316] Dd13d5FL220: 2 samples, 204 done, 2903s
+[76/316] E5kqdbMh7Ys: 1 samples, 205 done, 2927s
+[77/316] EII4qVr-Mjw: 5 samples, 210 done, 2951s
+[78/316] EWRMsjY10hw: 2 samples, 212 done, 3048s
+[79/316] EsZG07lW9KU: 2 samples, 214 done, 3069s
+[80/316] F8Pa8EPn_c4: 3 samples, 217 done, 3075s
+[81/316] FSKSkZzpqR8: 1 samples, 218 done, 3095s
+[82/316] Fr0QhESRzH0: 4 samples, 222 done, 3136s
+[83/316] Fx1luE9llSQ: 1 samples, 223 done, 3234s
+[84/316] G6kywexJUSU: 3 samples, 226 done, 3238s
+[85/316] GGIexzDO8cg: 2 samples, 228 done, 3267s
+[86/316] GR7PhXtVtQA: 1 samples, 229 done, 3283s
+[87/316] GbU_T2XiFgA: 4 samples, 233 done, 3304s
+[88/316] GkdFZK76bWE: 2 samples, 235 done, 3316s
+[89/316] GvDu_0ktsJ0: 1 samples, 236 done, 3338s
+[90/316] HAFLLtAcRKY: 3 samples, 239 done, 3340s
+[91/316] HNrYhCKk2DI: 3 samples, 242 done, 3348s
+[92/316] HdbBkWjBQWw: 4 samples, 246 done, 3402s
+[93/316] HgVegvv1HPE: 3 samples, 249 done, 3423s
+[94/316] HrTKYRnwUAs: 3 samples, 252 done, 3456s
+[95/316] I1zkx0Xz8NY: 5 samples, 257 done, 3480s
+[96/316] IEPDnSoz6IM: 1 samples, 258 done, 3497s
+[97/316] IR6tTS8r6Jw: 2 samples, 260 done, 3518s
+[98/316] IY19RWVNqOE: 1 samples, 261 done, 3527s
+[99/316] IaKwKW04iVY: 2 samples, 263 done, 3537s
+[100/316] IhoM6jese_Y: 3 samples, 266 done, 3600s
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/4: 316 videos, 689 samples
+[resume] 266 samples already in runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+[todo] 216 videos still to run (423 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 107/750 [00:00<00:00, 1067.72it/s]Loading weights:  29%|██▊       | 214/750 [00:00<00:00, 858.06it/s] Loading weights:  40%|████      | 303/750 [00:00<00:00, 813.36it/s]Loading weights:  61%|██████▏   | 460/750 [00:00<00:00, 1077.28it/s]Loading weights: 100%|██████████| 750/750 [00:00<00:00, 1395.11it/s]
+[load] models ready in 122.4s
+[1/216] IquGEf1w-Us: 5 samples, 5 done, 218s
+[2/216] JC1hUURScHY: 2 samples, 7 done, 227s
+[3/216] JIXrV9roz2A: 1 samples, 8 done, 253s
+[4/216] JS-7WQLMkXE: 2 samples, 10 done, 263s
+[5/216] JY8OABprVk4: 1 samples, 11 done, 287s
+[6/216] JdACOoKdgAQ: 3 samples, 14 done, 296s
+[7/216] Ji-sqo8Avuo: 2 samples, 16 done, 301s
+[8/216] Jsvcj2PUxFk: 4 samples, 20 done, 350s
+[9/216] K1cjtHUDldY: 1 samples, 21 done, 353s
+[10/216] KFpK0Z8FVyI: 2 samples, 23 done, 398s
+[11/216] KQQaI0lWHW0: 2 samples, 25 done, 401s
+[12/216] KekkHpBHZ84: 3 samples, 28 done, 423s
+[13/216] KknUO0Elk0I: 4 samples, 32 done, 459s
+[14/216] KvX3NE3KJ9s: 3 samples, 35 done, 478s
+[15/216] L1ZkHoirlmo: 4 samples, 39 done, 484s
+[16/216] L22ZdGXZI3c: 1 samples, 40 done, 491s
+[17/216] L7N88hQ1ccY: 2 samples, 42 done, 502s
+[18/216] LE3twRyz4iw: 2 samples, 44 done, 589s
+[19/216] LOmXawlL5ds: 1 samples, 45 done, 597s
+[20/216] Lj8YWdeIw7Y: 1 samples, 46 done, 621s
+[21/216] LthyJtLF0KU: 2 samples, 48 done, 634s
+[22/216] M3vT4tUpPwo: 1 samples, 49 done, 639s
+[23/216] MARVjDLPDYY: 4 samples, 53 done, 664s
+[24/216] MIo6g2mBh-o: 3 samples, 56 done, 675s
+[25/216] MNmhXI9ZbC0: 1 samples, 57 done, 689s
+[26/216] MVDO3gu1d68: 1 samples, 58 done, 691s
+[27/216] MmsIOgJuuWQ: 7 samples, 65 done, 933s
+[28/216] MrRcGmdL_4U: 5 samples, 70 done, 948s
+[29/216] MxhxhMS5QiA: 1 samples, 71 done, 950s
+[30/216] N4ukVxLJYS8: 2 samples, 73 done, 955s
+[31/216] NFX6ZNFg-Fc: 1 samples, 74 done, 988s
+[32/216] OSvJ2VJDxH0: 1 samples, 75 done, 1001s
+[33/216] PAKVTjjEmZw: 1 samples, 76 done, 1015s
+[34/216] PIF2Sh1KzDk: 1 samples, 77 done, 1026s
+[35/216] PU_N_b9geKs: 1 samples, 78 done, 1038s
+[36/216] PZiMJX2bQ4M: 1 samples, 79 done, 1056s
+[37/216] PnU1PlgQaUY: 2 samples, 81 done, 1067s
+[38/216] PvlM8BEcsBg: 2 samples, 83 done, 1118s
+[39/216] Q17JqVEoV1Y: 2 samples, 85 done, 1167s
+[40/216] Q8FK2CtxfpY: 1 samples, 86 done, 1210s
+[41/216] QDdyEQL6F90: 4 samples, 90 done, 1254s
+[42/216] QU3YMrU5Drs: 3 samples, 93 done, 1270s
+[43/216] Qt7rNu8LDv0: 2 samples, 95 done, 1354s
+[44/216] R1t1ktp6WDY: 3 samples, 98 done, 1370s
+[45/216] RCgIdfuQAD4: 1 samples, 99 done, 1390s
+[46/216] RIn_k3Wpf9A: 3 samples, 102 done, 1467s
+[47/216] RThFUxN_PG4: 3 samples, 105 done, 1481s
+[48/216] RfCtrUzXJgk: 2 samples, 107 done, 1526s
+[49/216] RnRcjb3MAs8: 6 samples, 113 done, 1544s
+[50/216] Rwmw4T62kvk: 3 samples, 116 done, 1569s
+[51/216] S1mxUTp67T8: 1 samples, 117 done, 1578s
+[52/216] SHE3B1pryxk: 3 samples, 120 done, 1581s
+[53/216] SMnZzGZUmWo: 1 samples, 121 done, 1613s
+[54/216] SQArinQHa2o: 1 samples, 122 done, 1625s
+[55/216] ShUQ8qYQshY: 3 samples, 125 done, 1671s
+[56/216] SxHRryEQwxQ: 2 samples, 127 done, 1691s
+[57/216] T8_lLHomDS0: 1 samples, 128 done, 1701s
+[58/216] TJMrW-vgNz0: 3 samples, 131 done, 1773s
+[59/216] T_LML1_IHmA: 3 samples, 134 done, 1833s
+[budget] stopping at video 59/216
+
+========================================================================
+samples 400  emits 3686  GT triggers 1266
+TIME   P 0.1199  R 0.3491  F1 0.1785   (macro 0.1822)
+JOINT  F1 lower bound 0.0448   (macro 0.0445)  -- judge pending
+token keep rate 0.4858
+wrote runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+      runs/op_qwen3/summary.shard00.json
+      runs/op_qwen3/profile_summary.shard00.pass1.csv
+========================================================================
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/4: 316 videos, 689 samples
+[resume] 400 samples already in runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+[todo] 157 videos still to run (289 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 164/750 [00:00<00:00, 1572.24it/s]Loading weights:  43%|████▎     | 322/750 [00:00<00:00, 863.72it/s] Loading weights:  72%|███████▏  | 537/750 [00:00<00:00, 1264.30it/s]Loading weights: 100%|██████████| 750/750 [00:00<00:00, 1597.71it/s]
+[load] models ready in 95.0s
+[1/157] TqwXQ3zeAI0: 1 samples, 1 done, 119s
+[2/157] TxkHJX93K0U: 2 samples, 3 done, 121s
+[3/157] U6Ga-DHVy8k: 1 samples, 4 done, 123s
+[4/157] U9ZHW6fAv04: 5 samples, 9 done, 179s
+[5/157] UGGUPyzw67w: 4 samples, 13 done, 195s
+[6/157] USiNJT0tzlc: 1 samples, 14 done, 200s
+[7/157] UZvpYQ-45No: 3 samples, 17 done, 213s
+[8/157] UggJrENa_Qw: 2 samples, 19 done, 260s
+[9/157] UldXRipkEno: 6 samples, 25 done, 305s
+[10/157] UqCRnhHPaF0: 4 samples, 29 done, 351s
+[11/157] UvsDfp_gNo4: 2 samples, 31 done, 362s
+[12/157] UyZfn6znkDc: 1 samples, 32 done, 370s
+[13/157] V6AYisqyhqg: 1 samples, 33 done, 381s
+[14/157] VGCmpZTvSm8: 3 samples, 36 done, 383s
+[15/157] VOkR-IKaOic: 1 samples, 37 done, 418s
+[16/157] VauQiGVVBBc: 5 samples, 42 done, 441s
+[17/157] VfRqNTpbOsQ: 1 samples, 43 done, 450s
+[18/157] Vu60fZgUVf4: 2 samples, 45 done, 452s
+[19/157] W1TGAer5z0g: 1 samples, 46 done, 476s
+[20/157] W8Sr7LAsd2Y: 1 samples, 47 done, 498s
+[21/157] WMAK4edTUmw: 5 samples, 52 done, 524s
+[22/157] WR60bYipVU8: 1 samples, 53 done, 528s
+[23/157] WkuUUdW0B4o: 2 samples, 55 done, 548s
+[24/157] WrZP5xZqYWg: 2 samples, 57 done, 560s
+[25/157] WvwXV8L_ewc: 3 samples, 60 done, 573s
+[26/157] X6Spq62kq8E: 3 samples, 63 done, 577s
+[27/157] XG8vW3blclY: 2 samples, 65 done, 588s
+[28/157] XWAehAfDsHg: 3 samples, 68 done, 606s
+[29/157] XdDESCBRIXk: 2 samples, 70 done, 623s
+[30/157] XsM5SvEkvZI: 2 samples, 72 done, 635s
+[31/157] Y4dQgIbjTWI: 4 samples, 76 done, 643s
+[32/157] YCa0O5lnWO0: 1 samples, 77 done, 645s
+[33/157] YOKbG0C-tJg: 2 samples, 79 done, 649s
+[34/157] YUO3R3dg9nQ: 1 samples, 80 done, 673s
+[35/157] YZYYVnB0lB8: 4 samples, 84 done, 677s
+[36/157] YfOiUT8ghvc: 3 samples, 87 done, 705s
+[37/157] Yl0auMMHAh8: 2 samples, 89 done, 738s
+[38/157] Yq4zEFiD2rY: 1 samples, 90 done, 749s
+[39/157] Yw5_IfvHueo: 2 samples, 92 done, 860s
+[40/157] Z0Ct75njaD0: 3 samples, 95 done, 960s
+[41/157] ZA8BslrJ0IQ: 3 samples, 98 done, 961s
+[42/157] ZYTmgi1pAIE: 3 samples, 101 done, 968s
+[43/157] ZfP-mTFTJcc: 3 samples, 104 done, 993s
+[44/157] ZnueWTgJJ8E: 1 samples, 105 done, 1006s
+[45/157] ZzNKv0hbkCY: 4 samples, 109 done, 1031s
+[46/157] _A8Ra5DXbUY: 3 samples, 112 done, 1042s
+[47/157] _RaSYDgoqWU: 1 samples, 113 done, 1066s
+[48/157] _kYE6KT5HlU: 1 samples, 114 done, 1094s
+[49/157] _s23EIMBWR8: 1 samples, 115 done, 1111s
+[50/157] aEqf0X5lFTE: 2 samples, 117 done, 1130s
+[51/157] aZQ8bPyEvQ8: 4 samples, 121 done, 1155s
+[52/157] ajhUpdVvmLQ: 1 samples, 122 done, 1157s
+[53/157] aw8hDEJ8lSA: 1 samples, 123 done, 1162s
+[54/157] bOiG_xau0QM: 1 samples, 124 done, 1169s
+[55/157] bXY6EQ9TtME: 1 samples, 125 done, 1173s
+[56/157] blSofrIVLS0: 1 samples, 126 done, 1200s
+[57/157] bsMWDyBpDsM: 1 samples, 127 done, 1200s
+[58/157] c8HLOHnlemM: 1 samples, 128 done, 1219s
+[59/157] cTiQ0A8yztM: 1 samples, 129 done, 1222s
+[60/157] ciG_cMNWR7c: 1 samples, 130 done, 1247s
+[61/157] cw9atTk4Ggc: 2 samples, 132 done, 1267s
+[62/157] dA2PeQKIWWI: 2 samples, 134 done, 1285s
+[63/157] dcnfcMrxTms: 1 samples, 135 done, 1298s
+[64/157] dlklQH85Hec: 1 samples, 136 done, 1310s
+[65/157] e0pJ0NsWI10: 1 samples, 137 done, 1364s
+[66/157] ePTs86a7Dh4: 1 samples, 138 done, 1369s
+[67/157] efv_PnNp5XE: 1 samples, 139 done, 1376s
+[68/157] fGx5YtQWJWo: 2 samples, 141 done, 1412s
+[69/157] flusr8d7n_I: 3 samples, 144 done, 1435s
+[70/157] g8RcIt4t7DI: 1 samples, 145 done, 1443s
+[71/157] gF99ZR5Nkoo: 1 samples, 146 done, 1450s
+[72/157] gUHQnkOkeX8: 1 samples, 147 done, 1491s
+[73/157] gjGLVCRlTGs: 1 samples, 148 done, 1495s
+[74/157] gzy-Q_k8veI: 2 samples, 150 done, 1525s
+[75/157] h37mxfmaZiM: 2 samples, 152 done, 1572s
+[76/157] hCYODDPhe2g: 3 samples, 155 done, 1596s
+[77/157] hMT94y2aUYs: 3 samples, 158 done, 1634s
+[78/157] hcP1So3_Qr0: 1 samples, 159 done, 1656s
+[79/157] iMb1viedwU0: 1 samples, 160 done, 1659s
+[80/157] jcosRKjgGR8: 1 samples, 161 done, 1683s
+[81/157] k5IvMup6ak0: 1 samples, 162 done, 1708s
+[82/157] kSrxSV04zGU: 3 samples, 165 done, 1719s
+[83/157] k_O7YabDgAA: 1 samples, 166 done, 1753s
+[84/157] kj5TLqhcD38: 5 samples, 171 done, 1918s
+[budget] stopping at video 84/157
+
+========================================================================
+samples 571  emits 5053  GT triggers 1816
+TIME   P 0.1241  R 0.3453  F1 0.1826   (macro 0.1836)
+JOINT  F1 lower bound 0.0466   (macro 0.048)  -- judge pending
+token keep rate 0.4815
+wrote runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+      runs/op_qwen3/summary.shard00.json
+      runs/op_qwen3/profile_summary.shard00.pass2.csv
+========================================================================
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/4: 316 videos, 689 samples
+[resume] 571 samples already in runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+[todo] 73 videos still to run (118 samples)
+/users/dbartaula/miniforge3/lib/python3.12/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+[openclip] 'openai' weights need QuickGELU: using 'ViT-L-14-quickgelu' instead of 'ViT-L-14'
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 107/750 [00:00<00:00, 989.43it/s]Loading weights:  27%|██▋       | 206/750 [00:00<00:00, 768.72it/s]Loading weights:  39%|███▉      | 292/750 [00:00<00:00, 800.25it/s]Loading weights:  50%|████▉     | 374/750 [00:00<00:00, 747.35it/s]Loading weights:  60%|██████    | 451/750 [00:00<00:00, 695.54it/s]Loading weights: 100%|██████████| 750/750 [00:00<00:00, 1136.30it/s]
+[load] models ready in 112.0s
+[1/73] koEB4XPd9IM: 3 samples, 3 done, 136s
+[2/73] kxMX3bsN-vI: 1 samples, 4 done, 147s
+[3/73] l4yzdnliEPE: 2 samples, 6 done, 167s
+[4/73] lGL-HKQt16Y: 1 samples, 7 done, 179s
+[5/73] lO7oDAwcil0: 1 samples, 8 done, 208s
+[6/73] lZ_g6Edz6gk: 1 samples, 9 done, 231s
+[7/73] lfZSuCIoQXA: 2 samples, 11 done, 248s
+[8/73] ltqjzx69ogM: 1 samples, 12 done, 274s
+[9/73] m1uI3PFvrx4: 2 samples, 14 done, 294s
+[10/73] mBTZryQRfMU: 1 samples, 15 done, 303s
+[11/73] mMxQcSe1WG4: 1 samples, 16 done, 328s
+[12/73] maaQRP-J_gw: 1 samples, 17 done, 344s
+[13/73] mkVvnkp09pM: 2 samples, 19 done, 348s
+[14/73] mqQn2enH7uA: 1 samples, 20 done, 359s
+[15/73] mzsJXjmfmI8: 2 samples, 22 done, 384s
+[16/73] nCMbcOm54zU: 2 samples, 24 done, 403s
+[17/73] nc-I9wz10dI: 1 samples, 25 done, 413s
+[18/73] nlj6-C8BhfY: 2 samples, 27 done, 441s
+[19/73] nsylTobS19g: 1 samples, 28 done, 443s
+[20/73] o0LY74Q2BOs: 3 samples, 31 done, 448s
+[21/73] o8IzzdtUyv0: 3 samples, 34 done, 481s
+[22/73] oFXMDy9AUbI: 3 samples, 37 done, 527s
+[23/73] oYbsX2F78ho: 2 samples, 39 done, 533s
+[24/73] oiHKNkJqxuA: 1 samples, 40 done, 549s
+[25/73] on7M5DKG2eA: 3 samples, 43 done, 590s
+[26/73] ow2ODhzDlHc: 1 samples, 44 done, 605s
+[27/73] pBeGMZGlfdU: 1 samples, 45 done, 609s
+[28/73] pJUhvhL8SBY: 2 samples, 47 done, 633s
+[29/73] pScHAD2PyTw: 1 samples, 48 done, 641s
+[30/73] pXZ_lKYCNfw: 1 samples, 49 done, 656s
+[31/73] peJoONtOeOg: 1 samples, 50 done, 675s
+[32/73] pppPpUt_ZKk: 2 samples, 52 done, 689s
+[33/73] q4wOU03q7ao: 1 samples, 53 done, 703s
+[34/73] qJq_VAIiJdk: 1 samples, 54 done, 710s
+[35/73] qYCtEAthTfo: 1 samples, 55 done, 734s
+[36/73] qsEYh3z-NRU: 1 samples, 56 done, 744s
+[37/73] rDQhcXajnNg: 1 samples, 57 done, 784s
+[38/73] rUaoCPdu8LE: 3 samples, 60 done, 808s
+[39/73] rm5fJ7ncqG4: 1 samples, 61 done, 811s
+[40/73] rxRJh_6agME: 2 samples, 63 done, 833s
+[41/73] s6Mq_rKuJQ8: 2 samples, 65 done, 843s
+[42/73] sCH9opZLXZQ: 1 samples, 66 done, 861s
+[43/73] sLvkYYSVjow: 2 samples, 68 done, 874s
+[44/73] sNm_rmkzt3Y: 2 samples, 70 done, 877s
+[45/73] sum3DN4Jjbs: 1 samples, 71 done, 901s
+[46/73] t8LxV8hQ78M: 1 samples, 72 done, 911s
+[47/73] tNeWPZw0Igw: 1 samples, 73 done, 927s
+[48/73] uEQhiiFCvFI: 2 samples, 75 done, 938s
+[49/73] uMWftJGDvGA: 3 samples, 78 done, 970s
+[50/73] uZp7faytVHk: 2 samples, 80 done, 1019s
+[51/73] usnThnerhSA: 2 samples, 82 done, 1022s
+[52/73] v2Tlscx1Rzc: 1 samples, 83 done, 1049s
+[53/73] vCxRAAJ8_do: 2 samples, 85 done, 1123s
+[54/73] vHTfzg4dBsY: 1 samples, 86 done, 1131s
+[55/73] vRfKX2Su77o: 1 samples, 87 done, 1141s
+[56/73] vZO6zJTht_Q: 1 samples, 88 done, 1174s
+[57/73] vixKZKiMmP0: 3 samples, 91 done, 1196s
+[58/73] vqQhq_1JnFE: 1 samples, 92 done, 1197s
+[59/73] w0Mg6Stk58U: 2 samples, 94 done, 1240s
+[60/73] wDLKxXpF_sE: 1 samples, 95 done, 1264s
+[61/73] wXFs1TTGSPI: 3 samples, 98 done, 1359s
+[62/73] wgM8wag2AfI: 1 samples, 99 done, 1365s
+[63/73] wq9wywa4xiM: 2 samples, 101 done, 1366s
+[64/73] x1tU5-Skk7E: 1 samples, 102 done, 1374s
+[65/73] xAKQYt870r0: 1 samples, 103 done, 1389s
+[66/73] xMcItzWk8l4: 1 samples, 104 done, 1390s
+[67/73] xW56ML986WA: 3 samples, 107 done, 1526s
+[68/73] xjElCXPNY48: 3 samples, 110 done, 1537s
+[69/73] xpKtJw67v7g: 3 samples, 113 done, 1604s
+[70/73] y1k5C4QNqwY: 1 samples, 114 done, 1616s
+[71/73] yCW_-SuVWGo: 2 samples, 116 done, 1623s
+[72/73] z5hwo3XxN0c: 1 samples, 117 done, 1631s
+[73/73] zrZCkdWzqB8: 1 samples, 118 done, 1650s
+
+========================================================================
+samples 689  emits 6067  GT triggers 2292
+TIME   P 0.1332  R 0.3525  F1 0.1933   (macro 0.1885)
+JOINT  F1 lower bound 0.049   (macro 0.0493)  -- judge pending
+token keep rate 0.4814
+wrote runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+      runs/op_qwen3/summary.shard00.json
+      runs/op_qwen3/profile_summary.shard00.pass3.csv
+========================================================================
+[manifest] 2700/2700 samples runnable (1262 videos, 66.2 h, 9051 GT triggers)
+[manifest] dropped: missing_video=0 task=0 audio=0 duration=0
+[shard] 1/4: 316 videos, 689 samples
+[resume] 689 samples already in runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+[todo] 0 videos still to run (0 samples)
+[load] nothing left in this shard; skipping model load
+
+========================================================================
+samples 689  emits 6067  GT triggers 2292
+TIME   P 0.1332  R 0.3525  F1 0.1933   (macro 0.1885)
+JOINT  F1 lower bound 0.049   (macro 0.0493)  -- judge pending
+token keep rate 0.4814
+wrote runs/op_qwen3/omnipro_raw_logs.shard00.jsonl
+      runs/op_qwen3/summary.shard00.json
+      runs/op_qwen3/profile_summary.shard00.pass4.csv
+========================================================================

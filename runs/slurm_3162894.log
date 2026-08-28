@@ -1,0 +1,8 @@
+[job 3162894] host=nid006620 nodes=1 tasks=1
+[job] out=/iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_dryrun  mask_space=score pool=mean relevance=running_minmax keep=qdp
+0, NVIDIA GH200 120GB, 97269 MiB
+1, NVIDIA GH200 120GB, 97273 MiB
+2, NVIDIA GH200 120GB, 97246 MiB
+3, NVIDIA GH200 120GB, 97271 MiB
+[worker 0/1] gpu=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_dryrun/shard0
+[worker 0] exit=0 -> /iopsstor/scratch/cscs/dbartaula/querystream/runs/sb_dryrun/shard0/worker.log
