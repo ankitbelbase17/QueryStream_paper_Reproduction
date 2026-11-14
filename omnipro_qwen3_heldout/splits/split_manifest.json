@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "split_unit": "sample within task",
+  "rounding": "floor(0.2*n), minimum 1",
+  "tasks": {
+    "cumulative_counting": {
+      "total": 102,
+      "calibration": 20,
+      "test": 82
+    },
+    "dedup_counting": {
+      "total": 283,
+      "calibration": 56,
+      "test": 227
+    },
+    "event_narration": {
+      "total": 96,
+      "calibration": 19,
+      "test": 77
+    },
+    "explicit_target_grounding": {
+      "total": 12,
+      "calibration": 2,
+      "test": 10
+    },
+    "instant_event_alert": {
+      "total": 38,
+      "calibration": 7,
+      "test": 31
+    },
+    "realtime_state_monitor": {
+      "total": 142,
+      "calibration": 28,
+      "test": 114
+    },
+    "semantic_condition_alert": {
+      "total": 38,
+      "calibration": 7,
+      "test": 31
+    },
+    "sequential_step_instruction": {
+      "total": 148,
+      "calibration": 29,
+      "test": 119
+    },
+    "snapshot_counting": {
+      "total": 73,
+      "calibration": 14,
+      "test": 59
+    }
+  },
+  "calibration": 182,
+  "test": 750,
+  "subset": 932,
+  "shared_videos_across_splits": 66,
+  "benchmark_sha256": "048ce6ae329ffae2e1dabff5bb6f8efbc6f96d1c04047a241fb84909bd43bc6c",
+  "videos": {
+    "downloaded": 699
+  },
+  "commits": {
+    "reproduction": "87391e58224c1da3a6d80078efb0895fabe3d728",
+    "official_query": "b793153403f73c3fecaccb6be324494bed1c7f62",
+    "official_omni": "7c72e8117f180bf9a22320c1dc2c005bbe4c4a0f"
+  }
+}

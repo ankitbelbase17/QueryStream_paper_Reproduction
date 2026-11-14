@@ -1,0 +1,525 @@
+2026-11-14 08:23:51 {"feature_total": 699, "feature_done": 1, "calibration_feature_total": 173, "calibration_feature_done": 0, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'features', 'started': []}
+2026-11-14 08:24:39 {"feature_total": 699, "feature_done": 1, "calibration_feature_total": 173, "calibration_feature_done": 0, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'features', 'started': []}
+2026-11-14 08:25:24 {"feature_total": 699, "feature_done": 5, "calibration_feature_total": 173, "calibration_feature_done": 4, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+2026-11-14 08:25:59 {"feature_total": 699, "feature_done": 16, "calibration_feature_total": 173, "calibration_feature_done": 15, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'features', 'started': []}
+RECOVERED clariden-ln002 [{'stage': 'features', 'key': 'fa3b1257952ba069b673d317'}, {'stage': 'features', 'key': 'faf30e121824123ac1cf7d40'}, {'stage': 'features', 'key': 'fd2e62b5dd7aff249d21b0cb'}]
+LAUNCH {'host': 'clariden-ln002', 'stage': 'features', 'started': []}
+RECOVERED clariden-ln004 [{'stage': 'features', 'key': 'd4b6f590cf27e6759fd7276b'}, {'stage': 'features', 'key': '3dd6f56bc393faa1caf7e004'}, {'stage': 'features', 'key': 'ba4f2a16eabd38ede5aad52e'}, {'stage': 'features', 'key': 'b2960fe138663acb8ae154fa'}]
+LAUNCH {'host': 'clariden-ln004', 'stage': 'features', 'started': []}
+2026-11-14 08:26:49 {"feature_total": 699, "feature_done": 16, "calibration_feature_total": 173, "calibration_feature_done": 15, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+2026-11-14 08:27:24 {"feature_total": 699, "feature_done": 16, "calibration_feature_total": 173, "calibration_feature_done": 15, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 0, "errors": 0}
+2026-11-14 08:27:58 {"feature_total": 699, "feature_done": 25, "calibration_feature_total": 173, "calibration_feature_done": 24, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 1, "judge_done": 0, "errors": 0}
+JUDGED {'written': 1}
+2026-11-14 08:28:29 {"feature_total": 699, "feature_done": 43, "calibration_feature_total": 173, "calibration_feature_done": 42, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 0}
+2026-11-14 08:29:04 {"feature_total": 699, "feature_done": 66, "calibration_feature_total": 173, "calibration_feature_done": 66, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 0}
+2026-11-14 08:29:40 {"feature_total": 699, "feature_done": 108, "calibration_feature_total": 173, "calibration_feature_done": 107, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'features', 'started': []}
+RECOVERED clariden-ln002 [{'stage': 'features', 'key': 'f8878fe86924beaaa17cca2f'}]
+LAUNCH {'host': 'clariden-ln002', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'features', 'started': []}
+2026-11-14 08:30:39 {"feature_total": 699, "feature_done": 178, "calibration_feature_total": 173, "calibration_feature_done": 170, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:31:14 {"feature_total": 699, "feature_done": 178, "calibration_feature_total": 173, "calibration_feature_done": 170, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:31:49 {"feature_total": 699, "feature_done": 178, "calibration_feature_total": 173, "calibration_feature_done": 170, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:32:25 {"feature_total": 699, "feature_done": 179, "calibration_feature_total": 173, "calibration_feature_done": 171, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:33:00 {"feature_total": 699, "feature_done": 189, "calibration_feature_total": 173, "calibration_feature_done": 172, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:33:35 {"feature_total": 699, "feature_done": 202, "calibration_feature_total": 173, "calibration_feature_done": 172, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'features', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'features', 'started': []}
+2026-11-14 08:34:36 {"feature_total": 699, "feature_done": 231, "calibration_feature_total": 173, "calibration_feature_done": 172, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:35:11 {"feature_total": 699, "feature_done": 248, "calibration_feature_total": 173, "calibration_feature_done": 172, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:35:46 {"feature_total": 699, "feature_done": 267, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 0, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:36:23 {"feature_total": 699, "feature_done": 291, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:37:00 {"feature_total": 699, "feature_done": 317, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:37:35 {"feature_total": 699, "feature_done": 346, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': []}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:38:40 {"feature_total": 699, "feature_done": 412, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:39:14 {"feature_total": 699, "feature_done": 451, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:39:52 {"feature_total": 699, "feature_done": 503, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:40:26 {"feature_total": 699, "feature_done": 559, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:41:03 {"feature_total": 699, "feature_done": 645, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:42:08 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:42:43 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 0, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 728, "unjudged": 0}
+ 
+2026-11-14 08:43:21 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 4, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+2026-11-14 08:43:56 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 5, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 723, "unjudged": 0}
+ 
+2026-11-14 08:44:33 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 18, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 1, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': []}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 696, "unjudged": 6}
+ 
+JUDGED {'written': 10}
+2026-11-14 08:46:37 {"feature_total": 699, "feature_done": 697, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 42, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 11, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 685, "unjudged": 3}
+ 
+JUDGED {'written': 6}
+2026-11-14 08:47:48 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 48, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 17, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 680, "unjudged": 4}
+ 
+JUDGED {'written': 10}
+2026-11-14 08:49:40 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 103, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 27, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': []}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 600, "unjudged": 5}
+ 
+JUDGED {'written': 5}
+2026-11-14 08:51:07 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 166, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 32, "errors": 2}
+2026-11-14 08:51:41 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 177, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 32, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 550, "unjudged": 0}
+ 
+2026-11-14 08:52:19 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 197, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 32, "errors": 2}
+2026-11-14 08:52:54 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 232, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 32, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 488, "unjudged": 10}
+ 
+JUDGED {'written': 12}
+2026-11-14 08:54:55 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 346, "test_jobs": 0, "test_done": 0, "pending_judgments": 14, "judge_done": 44, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': []}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 356, "unjudged": 28}
+ 
+JUDGED {'written': 12}
+2026-11-14 08:57:26 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 479, "test_jobs": 0, "test_done": 0, "pending_judgments": 44, "judge_done": 56, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 246, "unjudged": 47}
+ 
+JUDGED {'written': 12}
+2026-11-14 08:59:33 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 592, "test_jobs": 0, "test_done": 0, "pending_judgments": 86, "judge_done": 68, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': []}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 79, "unjudged": 95}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:02:20 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 169, "judge_done": 80, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 133}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:04:21 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 260, "judge_done": 92, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 133}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:06:53 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 248, "judge_done": 104, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 132}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:08:48 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 236, "judge_done": 116, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [0, 1, 2, 3]}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 131}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 09:11:19 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 225, "judge_done": 127, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 129}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:13:35 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 213, "judge_done": 139, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 125}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:16:15 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 201, "judge_done": 151, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 124}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:18:41 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 189, "judge_done": 163, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 122}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:21:40 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 177, "judge_done": 175, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 116}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:24:36 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 165, "judge_done": 187, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 113}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:27:48 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 153, "judge_done": 199, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 111}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:30:34 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 141, "judge_done": 211, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 108}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:33:42 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 129, "judge_done": 223, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 105}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:36:20 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 117, "judge_done": 235, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 100}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:39:25 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 105, "judge_done": 247, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 92}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:41:36 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 93, "judge_done": 259, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 88}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:44:47 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 81, "judge_done": 271, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 83}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:47:34 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 69, "judge_done": 283, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 75}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:50:41 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 57, "judge_done": 295, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 65}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 09:53:09 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 46, "judge_done": 306, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 54}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:56:02 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 34, "judge_done": 318, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 43}
+ 
+JUDGED {'written': 12}
+2026-11-14 09:58:19 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 22, "judge_done": 330, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 30}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:01:16 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 10, "judge_done": 342, "errors": 2}
+SCORE 2 {"stage": "calibration", "expected": 728, "missing": 0, "unjudged": 12}
+ 
+JUDGED {'written': 10}
+2026-11-14 10:02:52 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 0, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'calibration', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'calibration', 'started': [], 'complete': True}
+SCORE 0 SCORE COMPLETE calibration
+ 
+2026-11-14 10:03:58 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+2026-11-14 10:04:33 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 750, "unjudged": 0}
+ 
+2026-11-14 10:05:10 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+2026-11-14 10:05:45 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 750, "unjudged": 0}
+ 
+2026-11-14 10:06:22 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [0, 1, 2, 3]}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [0, 1, 2, 3]}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 750, "unjudged": 0}
+ 
+2026-11-14 10:07:31 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 0, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+2026-11-14 10:08:06 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 39, "pending_judgments": 0, "judge_done": 352, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 709, "unjudged": 3}
+ 
+JUDGED {'written': 6}
+2026-11-14 10:09:38 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 123, "pending_judgments": 0, "judge_done": 358, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 626, "unjudged": 15}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:11:32 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 207, "pending_judgments": 31, "judge_done": 370, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': []}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 510, "unjudged": 33}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:14:10 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 334, "pending_judgments": 71, "judge_done": 382, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 414, "unjudged": 48}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 10:16:14 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 445, "pending_judgments": 105, "judge_done": 393, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': []}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 285, "unjudged": 71}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:19:04 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 584, "pending_judgments": 183, "judge_done": 405, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 161, "unjudged": 93}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:20:59 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 666, "pending_judgments": 239, "judge_done": 417, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': []}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': []}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 49, "unjudged": 126}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:23:29 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 749, "pending_judgments": 327, "judge_done": 429, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 1, "unjudged": 140}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:26:32 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 356, "judge_done": 441, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 140}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:29:05 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 344, "judge_done": 453, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 139}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:31:17 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 332, "judge_done": 465, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 139}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:33:47 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 320, "judge_done": 477, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 136}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:35:58 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 308, "judge_done": 489, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 135}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:38:45 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 296, "judge_done": 501, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 134}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:40:53 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 284, "judge_done": 513, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 131}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:43:29 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 272, "judge_done": 525, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 129}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:45:27 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 260, "judge_done": 537, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 124}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:48:06 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 248, "judge_done": 549, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 122}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 10:50:16 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 237, "judge_done": 560, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 115}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:52:44 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 225, "judge_done": 572, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 111}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:54:40 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 213, "judge_done": 584, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 109}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:57:20 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 201, "judge_done": 596, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 105}
+ 
+JUDGED {'written': 12}
+2026-11-14 10:59:37 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 189, "judge_done": 608, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 100}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:02:15 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 177, "judge_done": 620, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 98}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 11:04:27 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 166, "judge_done": 631, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 96}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:07:06 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 154, "judge_done": 643, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 89}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:09:04 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 142, "judge_done": 655, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 83}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 11:11:32 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 131, "judge_done": 666, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 80}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:13:16 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 119, "judge_done": 678, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 74}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:15:36 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 107, "judge_done": 690, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 68}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:17:18 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 95, "judge_done": 702, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 63}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:20:00 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 83, "judge_done": 714, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 56}
+ 
+JUDGE RETRY JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+JUDGED {'written': 11}
+2026-11-14 11:22:33 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 72, "judge_done": 725, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 50}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:25:03 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 60, "judge_done": 737, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 47}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:26:25 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 48, "judge_done": 749, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 41}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:28:39 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 36, "judge_done": 761, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 32}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:30:49 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 24, "judge_done": 773, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 22}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:33:03 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 12, "judge_done": 785, "errors": 2}
+SCORE 2 {"stage": "test", "expected": 750, "missing": 0, "unjudged": 12}
+ 
+JUDGED {'written': 12}
+2026-11-14 11:34:51 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": false, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 0, "judge_done": 797, "errors": 2}
+LAUNCH {'host': 'clariden-ln001', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln002', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln003', 'stage': 'test', 'started': [], 'complete': True}
+LAUNCH {'host': 'clariden-ln004', 'stage': 'test', 'started': [], 'complete': True}
+SCORE 0 SCORE COMPLETE test
+ 
+2026-11-14 11:36:04 {"feature_total": 699, "feature_done": 699, "calibration_feature_total": 173, "calibration_feature_done": 173, "validated": true, "final": true, "calibration_jobs": 728, "calibration_done": 728, "test_jobs": 750, "test_done": 750, "pending_judgments": 0, "judge_done": 797, "errors": 2}
+EXPERIMENT COMPLETE

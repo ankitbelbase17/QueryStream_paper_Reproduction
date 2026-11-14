@@ -29,6 +29,7 @@ rate.
 | **M7a** | **LAION OpenCLIP encoder control (`runs/ovo_laion`)** | ✅ **584/584** — 45.4 vs 44.3, **p = 0.551, not significant** |
 | — | OmniPro judge batch (965 requests) | ✅ **landed 2026-08-25** — joint F1 **6.70**, no longer a bound |
 | **M7b** | **OmniPro full on Qwen3-VL-8B-Instruct (`runs/op_qwen3`)** | 🔄 wrapper done, 23/23 geometry checks; smoke then full |
+| **M8** | **OmniPro held-out, audio none+helpful, video-only, official online protocol, per-task RTAR thresholds fit on a seed-42 20% split, Qwen3-VL-8B. See [`omnipro_qwen3_heldout/`](omnipro_qwen3_heldout/README.md)** | ✅ **750/750 held-out**: macro joint F1 **7.36** (95% CI 5.92–8.82); whole-plane M-RoPE shift found in `qwen3_wrapper.py` |
 
 **Standing user rule: build incrementally and WAIT for a signal after each
 milestone. Do not start the full StreamingBench run or M4 unsolicited.**

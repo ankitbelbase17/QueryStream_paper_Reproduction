@@ -1,0 +1,40 @@
+{
+  "source": "runs/op_qwen3 (repo main @ 87391e5), restricted to splits/test_ids.txt",
+  "n_samples": 750,
+  "macro_joint_f1": 0.085,
+  "macro_time_f1": 0.1887,
+  "n_unjudged": 0,
+  "emits": 7032,
+  "gt": 3022,
+  "per_task_joint_f1": {
+    "cumulative_counting": 0.1029,
+    "dedup_counting": 0.0597,
+    "event_narration": 0.1036,
+    "explicit_target_grounding": 0.0465,
+    "instant_event_alert": 0.0782,
+    "realtime_state_monitor": 0.0255,
+    "semantic_condition_alert": 0.2121,
+    "sequential_step_instruction": 0.1186,
+    "snapshot_counting": 0.0179
+  },
+  "per_task_time_f1": {
+    "cumulative_counting": 0.2419,
+    "dedup_counting": 0.2121,
+    "event_narration": 0.1791,
+    "explicit_target_grounding": 0.1163,
+    "instant_event_alert": 0.0782,
+    "realtime_state_monitor": 0.2498,
+    "semantic_condition_alert": 0.2121,
+    "sequential_step_instruction": 0.3282,
+    "snapshot_counting": 0.0807
+  },
+  "differences": [
+    "repo prompts (event asserted, no history/silence option, 8-80 token caps, no state vocabulary)",
+    "running-minmax relevance, tau_rel=0.60, tau_den=0.15 (untuned)",
+    "3 s debounce",
+    "OpenAI judge",
+    "2 distinct frames per Qwen3 plane",
+    "supplied Qwen3 wrapper (whole-plane M-RoPE shift)",
+    "repo scorer (reimplementation of the official one)"
+  ]
+}
