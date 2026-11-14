@@ -1,0 +1,11 @@
+{
+  "dense_logits_max_error": 0.0,
+  "greedy_decode_match": true,
+  "native_text": "The visible colors are a chaotic mix of bright, saturated hues",
+  "sparse_mrope_exact": true,
+  "deepstack_row_alignment_exact": true,
+  "batched_vs_frame_feature_max_error": 0.0078125,
+  "torch": "2.12.1+cu126",
+  "transformers": "5.9.0",
+  "passed": true
+}

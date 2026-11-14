@@ -1,0 +1,398 @@
+{
+  "tasks": {
+    "cumulative_counting": {
+      "n": 82,
+      "tp_time": 192,
+      "tp_content": 65,
+      "fp": 1250,
+      "fn": 181,
+      "content_scored": 192,
+      "time_precision": 0.1331,
+      "time_recall": 0.5147,
+      "time_f1": 0.2116,
+      "content_accuracy": 0.3385,
+      "joint_f1": 0.0716,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    },
+    "dedup_counting": {
+      "n": 227,
+      "tp_time": 659,
+      "tp_content": 265,
+      "fp": 4204,
+      "fn": 270,
+      "content_scored": 659,
+      "time_precision": 0.1355,
+      "time_recall": 0.7094,
+      "time_f1": 0.2276,
+      "content_accuracy": 0.4021,
+      "joint_f1": 0.0915,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    },
+    "event_narration": {
+      "n": 77,
+      "tp_time": 102,
+      "tp_content": 26,
+      "fp": 769,
+      "fn": 249,
+      "content_scored": 102,
+      "time_precision": 0.1171,
+      "time_recall": 0.2906,
+      "time_f1": 0.1669,
+      "content_accuracy": 0.2549,
+      "joint_f1": 0.0426,
+      "content_kind": "gpt_judge",
+      "used_gpt_judge": true
+    },
+    "explicit_target_grounding": {
+      "n": 10,
+      "tp_time": 1,
+      "tp_content": 0,
+      "fp": 17,
+      "fn": 12,
+      "content_scored": 1,
+      "time_precision": 0.0556,
+      "time_recall": 0.0769,
+      "time_f1": 0.0645,
+      "content_accuracy": 0.0,
+      "joint_f1": 0.0,
+      "content_kind": "position",
+      "used_gpt_judge": false
+    },
+    "instant_event_alert": {
+      "n": 31,
+      "tp_time": 6,
+      "tp_content": 6,
+      "fp": 86,
+      "fn": 36,
+      "content_scored": 6,
+      "time_precision": 0.0652,
+      "time_recall": 0.1429,
+      "time_f1": 0.0896,
+      "content_accuracy": 1.0,
+      "joint_f1": 0.0896,
+      "content_kind": "time_only",
+      "used_gpt_judge": false
+    },
+    "realtime_state_monitor": {
+      "n": 114,
+      "tp_time": 139,
+      "tp_content": 52,
+      "fp": 847,
+      "fn": 367,
+      "content_scored": 139,
+      "time_precision": 0.141,
+      "time_recall": 0.2747,
+      "time_f1": 0.1863,
+      "content_accuracy": 0.3741,
+      "joint_f1": 0.0697,
+      "content_kind": "state",
+      "used_gpt_judge": false
+    },
+    "semantic_condition_alert": {
+      "n": 31,
+      "tp_time": 12,
+      "tp_content": 12,
+      "fp": 22,
+      "fn": 88,
+      "content_scored": 12,
+      "time_precision": 0.3529,
+      "time_recall": 0.12,
+      "time_f1": 0.1791,
+      "content_accuracy": 1.0,
+      "joint_f1": 0.1791,
+      "content_kind": "time_only",
+      "used_gpt_judge": false
+    },
+    "sequential_step_instruction": {
+      "n": 119,
+      "tp_time": 343,
+      "tp_content": 84,
+      "fp": 844,
+      "fn": 306,
+      "content_scored": 343,
+      "time_precision": 0.289,
+      "time_recall": 0.5285,
+      "time_f1": 0.3736,
+      "content_accuracy": 0.2449,
+      "joint_f1": 0.0915,
+      "content_kind": "gpt_judge",
+      "used_gpt_judge": true
+    },
+    "snapshot_counting": {
+      "n": 59,
+      "tp_time": 14,
+      "tp_content": 4,
+      "fp": 229,
+      "fn": 45,
+      "content_scored": 14,
+      "time_precision": 0.0576,
+      "time_recall": 0.2373,
+      "time_f1": 0.0927,
+      "content_accuracy": 0.2857,
+      "joint_f1": 0.0265,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    }
+  },
+  "macro": {
+    "num_tasks": 9,
+    "macro_time_f1": 0.1769,
+    "macro_content_accuracy": 0.4334,
+    "content_scored_task_count": 9,
+    "macro_joint_f1": 0.0736,
+    "joint_task_count": 9
+  },
+  "n_samples": 750,
+  "split": {
+    "seed": 42,
+    "split_unit": "sample within task",
+    "rounding": "floor(0.2*n), minimum 1",
+    "tasks": {
+      "cumulative_counting": {
+        "total": 102,
+        "calibration": 20,
+        "test": 82
+      },
+      "dedup_counting": {
+        "total": 283,
+        "calibration": 56,
+        "test": 227
+      },
+      "event_narration": {
+        "total": 96,
+        "calibration": 19,
+        "test": 77
+      },
+      "explicit_target_grounding": {
+        "total": 12,
+        "calibration": 2,
+        "test": 10
+      },
+      "instant_event_alert": {
+        "total": 38,
+        "calibration": 7,
+        "test": 31
+      },
+      "realtime_state_monitor": {
+        "total": 142,
+        "calibration": 28,
+        "test": 114
+      },
+      "semantic_condition_alert": {
+        "total": 38,
+        "calibration": 7,
+        "test": 31
+      },
+      "sequential_step_instruction": {
+        "total": 148,
+        "calibration": 29,
+        "test": 119
+      },
+      "snapshot_counting": {
+        "total": 73,
+        "calibration": 14,
+        "test": 59
+      }
+    },
+    "calibration": 182,
+    "test": 750,
+    "subset": 932,
+    "shared_videos_across_splits": 66,
+    "benchmark_sha256": "048ce6ae329ffae2e1dabff5bb6f8efbc6f96d1c04047a241fb84909bd43bc6c",
+    "videos": {
+      "downloaded": 699
+    },
+    "commits": {
+      "reproduction": "87391e58224c1da3a6d80078efb0895fabe3d728",
+      "official_query": "b793153403f73c3fecaccb6be324494bed1c7f62",
+      "official_omni": "7c72e8117f180bf9a22320c1dc2c005bbe4c4a0f"
+    }
+  },
+  "thresholds": {
+    "cumulative_counting": {
+      "tau_rel": 0.217945,
+      "tau_den": 0.5,
+      "policy": "cumulative_counting_1",
+      "calibration_metrics": {
+        "n": 20,
+        "tp_time": 73,
+        "tp_content": 20,
+        "fp": 315,
+        "fn": 33,
+        "content_scored": 73,
+        "time_precision": 0.1881,
+        "time_recall": 0.6887,
+        "time_f1": 0.2955,
+        "content_accuracy": 0.274,
+        "joint_f1": 0.081,
+        "content_kind": "count",
+        "used_gpt_judge": false
+      }
+    },
+    "dedup_counting": {
+      "tau_rel": 0.192371,
+      "tau_den": 0.5,
+      "policy": "dedup_counting_3",
+      "calibration_metrics": {
+        "n": 56,
+        "tp_time": 168,
+        "tp_content": 64,
+        "fp": 993,
+        "fn": 56,
+        "content_scored": 168,
+        "time_precision": 0.1447,
+        "time_recall": 0.75,
+        "time_f1": 0.2426,
+        "content_accuracy": 0.381,
+        "joint_f1": 0.0924,
+        "content_kind": "count",
+        "used_gpt_judge": false
+      }
+    },
+    "event_narration": {
+      "tau_rel": 0.220876,
+      "tau_den": 0.4,
+      "policy": "event_narration_0",
+      "calibration_metrics": {
+        "n": 19,
+        "tp_time": 44,
+        "tp_content": 18,
+        "fp": 276,
+        "fn": 39,
+        "content_scored": 44,
+        "time_precision": 0.1375,
+        "time_recall": 0.5301,
+        "time_f1": 0.2184,
+        "content_accuracy": 0.4091,
+        "joint_f1": 0.0893,
+        "content_kind": "gpt_judge",
+        "used_gpt_judge": true
+      }
+    },
+    "explicit_target_grounding": {
+      "tau_rel": 0.234903,
+      "tau_den": 0.6,
+      "policy": "explicit_target_grounding_0",
+      "calibration_metrics": {
+        "n": 2,
+        "tp_time": 1,
+        "tp_content": 0,
+        "fp": 0,
+        "fn": 1,
+        "content_scored": 1,
+        "time_precision": 1.0,
+        "time_recall": 0.5,
+        "time_f1": 0.6667,
+        "content_accuracy": 0.0,
+        "joint_f1": 0.0,
+        "content_kind": "position",
+        "used_gpt_judge": false
+      }
+    },
+    "instant_event_alert": {
+      "tau_rel": 0.313182,
+      "tau_den": 0.5,
+      "policy": "instant_event_alert_0",
+      "calibration_metrics": {
+        "n": 7,
+        "tp_time": 3,
+        "tp_content": 3,
+        "fp": 14,
+        "fn": 4,
+        "content_scored": 3,
+        "time_precision": 0.1765,
+        "time_recall": 0.4286,
+        "time_f1": 0.25,
+        "content_accuracy": 1.0,
+        "joint_f1": 0.25,
+        "content_kind": "time_only",
+        "used_gpt_judge": false
+      }
+    },
+    "realtime_state_monitor": {
+      "tau_rel": 0.257871,
+      "tau_den": 0.5,
+      "policy": "realtime_state_monitor_3",
+      "calibration_metrics": {
+        "n": 28,
+        "tp_time": 63,
+        "tp_content": 29,
+        "fp": 212,
+        "fn": 62,
+        "content_scored": 63,
+        "time_precision": 0.2291,
+        "time_recall": 0.504,
+        "time_f1": 0.315,
+        "content_accuracy": 0.4603,
+        "joint_f1": 0.145,
+        "content_kind": "state",
+        "used_gpt_judge": false
+      }
+    },
+    "semantic_condition_alert": {
+      "tau_rel": 0.303875,
+      "tau_den": 0.5,
+      "policy": "semantic_condition_alert_0",
+      "calibration_metrics": {
+        "n": 7,
+        "tp_time": 5,
+        "tp_content": 5,
+        "fp": 13,
+        "fn": 17,
+        "content_scored": 5,
+        "time_precision": 0.2778,
+        "time_recall": 0.2273,
+        "time_f1": 0.25,
+        "content_accuracy": 1.0,
+        "joint_f1": 0.25,
+        "content_kind": "time_only",
+        "used_gpt_judge": false
+      }
+    },
+    "sequential_step_instruction": {
+      "tau_rel": 0.188515,
+      "tau_den": 0.5,
+      "policy": "sequential_step_instruction_3",
+      "calibration_metrics": {
+        "n": 29,
+        "tp_time": 96,
+        "tp_content": 26,
+        "fp": 155,
+        "fn": 62,
+        "content_scored": 96,
+        "time_precision": 0.3825,
+        "time_recall": 0.6076,
+        "time_f1": 0.4694,
+        "content_accuracy": 0.2708,
+        "joint_f1": 0.1271,
+        "content_kind": "gpt_judge",
+        "used_gpt_judge": true
+      }
+    },
+    "snapshot_counting": {
+      "tau_rel": 0.260982,
+      "tau_den": 0.5,
+      "policy": "snapshot_counting_3",
+      "calibration_metrics": {
+        "n": 14,
+        "tp_time": 6,
+        "tp_content": 2,
+        "fp": 44,
+        "fn": 8,
+        "content_scored": 6,
+        "time_precision": 0.12,
+        "time_recall": 0.4286,
+        "time_f1": 0.1875,
+        "content_accuracy": 0.3333,
+        "joint_f1": 0.0625,
+        "content_kind": "count",
+        "used_gpt_judge": false
+      }
+    }
+  },
+  "judge": "github-copilot/gemini-3.8-flash",
+  "tolerance": 3.0,
+  "complete": true
+}

@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "test_samples": 750,
+  "calibration_samples": 182,
+  "tasks": 9,
+  "macro_joint_f1": 0.07355991168384107,
+  "macro_joint_f1_bootstrap95": [
+    0.05919074727908055,
+    0.08818944863269257
+  ],
+  "bootstrap": {
+    "reps": 2000,
+    "seed": 42,
+    "unit": "held-out sample, stratified by task"
+  },
+  "macro_time_f1": 0.17687982658896376,
+  "micro_joint_f1": 0.08057689292992633,
+  "per_task": {
+    "cumulative_counting": {
+      "n": 82,
+      "emits": 1442,
+      "gt_triggers": 373,
+      "tp_joint": 65,
+      "tp_time": 192,
+      "joint_precision": 0.04507628294036061,
+      "joint_recall": 0.1742627345844504,
+      "joint_f1": 0.07162534435261708,
+      "time_f1": 0.2115702479338843
+    },
+    "dedup_counting": {
+      "n": 227,
+      "emits": 4863,
+      "gt_triggers": 929,
+      "tp_joint": 265,
+      "tp_time": 659,
+      "joint_precision": 0.0544931112482007,
+      "joint_recall": 0.2852529601722282,
+      "joint_f1": 0.09150552486187845,
+      "time_f1": 0.22755524861878454
+    },
+    "event_narration": {
+      "n": 77,
+      "emits": 871,
+      "gt_triggers": 351,
+      "tp_joint": 26,
+      "tp_time": 102,
+      "joint_precision": 0.029850746268656716,
+      "joint_recall": 0.07407407407407407,
+      "joint_f1": 0.0425531914893617,
+      "time_f1": 0.16693944353518822
+    },
+    "explicit_target_grounding": {
+      "n": 10,
+      "emits": 18,
+      "gt_triggers": 13,
+      "tp_joint": 0,
+      "tp_time": 1,
+      "joint_precision": 0.0,
+      "joint_recall": 0.0,
+      "joint_f1": 0.0,
+      "time_f1": 0.06451612903225806
+    },
+    "instant_event_alert": {
+      "n": 31,
+      "emits": 92,
+      "gt_triggers": 42,
+      "tp_joint": 6,
+      "tp_time": 6,
+      "joint_precision": 0.06521739130434782,
+      "joint_recall": 0.14285714285714285,
+      "joint_f1": 0.08955223880597014,
+      "time_f1": 0.08955223880597014
+    },
+    "realtime_state_monitor": {
+      "n": 114,
+      "emits": 986,
+      "gt_triggers": 506,
+      "tp_joint": 52,
+      "tp_time": 139,
+      "joint_precision": 0.05273833671399594,
+      "joint_recall": 0.10276679841897234,
+      "joint_f1": 0.06970509383378017,
+      "time_f1": 0.1863270777479893
+    },
+    "semantic_condition_alert": {
+      "n": 31,
+      "emits": 34,
+      "gt_triggers": 100,
+      "tp_joint": 12,
+      "tp_time": 12,
+      "joint_precision": 0.35294117647058826,
+      "joint_recall": 0.12,
+      "joint_f1": 0.1791044776119403,
+      "time_f1": 0.1791044776119403
+    },
+    "sequential_step_instruction": {
+      "n": 119,
+      "emits": 1187,
+      "gt_triggers": 649,
+      "tp_joint": 84,
+      "tp_time": 343,
+      "joint_precision": 0.07076663858466722,
+      "joint_recall": 0.12942989214175654,
+      "joint_f1": 0.0915032679738562,
+      "time_f1": 0.37363834422657954
+    },
+    "snapshot_counting": {
+      "n": 59,
+      "emits": 243,
+      "gt_triggers": 59,
+      "tp_joint": 4,
+      "tp_time": 14,
+      "joint_precision": 0.01646090534979424,
+      "joint_recall": 0.06779661016949153,
+      "joint_f1": 0.026490066225165563,
+      "time_f1": 0.09271523178807947
+    }
+  },
+  "mean_sample_token_keep_rate": 0.42149822214245797,
+  "generation_calls": 11348,
+  "judged_test_pairs": 445,
+  "judged_test_pass_rate": 0.24719101123595505,
+  "unique_test_judge_prompts": 445,
+  "all_cached_verdicts_incl_calibration_and_smoke": 797,
+  "judge_model": "github-copilot/gemini-3.8-flash",
+  "judge_reported_cost_total": 3.932126625,
+  "test_id_sha256": "85e2691a63276df0bbcec7681e7d4cd8313671408534eec7a2695bd1232063d5"
+}

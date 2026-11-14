@@ -1,0 +1,182 @@
+{
+  "cumulative_counting": {
+    "tau_rel": 0.217945,
+    "tau_den": 0.5,
+    "policy": "cumulative_counting_1",
+    "calibration_metrics": {
+      "n": 20,
+      "tp_time": 73,
+      "tp_content": 20,
+      "fp": 315,
+      "fn": 33,
+      "content_scored": 73,
+      "time_precision": 0.1881,
+      "time_recall": 0.6887,
+      "time_f1": 0.2955,
+      "content_accuracy": 0.274,
+      "joint_f1": 0.081,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    }
+  },
+  "dedup_counting": {
+    "tau_rel": 0.192371,
+    "tau_den": 0.5,
+    "policy": "dedup_counting_3",
+    "calibration_metrics": {
+      "n": 56,
+      "tp_time": 168,
+      "tp_content": 64,
+      "fp": 993,
+      "fn": 56,
+      "content_scored": 168,
+      "time_precision": 0.1447,
+      "time_recall": 0.75,
+      "time_f1": 0.2426,
+      "content_accuracy": 0.381,
+      "joint_f1": 0.0924,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    }
+  },
+  "event_narration": {
+    "tau_rel": 0.220876,
+    "tau_den": 0.4,
+    "policy": "event_narration_0",
+    "calibration_metrics": {
+      "n": 19,
+      "tp_time": 44,
+      "tp_content": 18,
+      "fp": 276,
+      "fn": 39,
+      "content_scored": 44,
+      "time_precision": 0.1375,
+      "time_recall": 0.5301,
+      "time_f1": 0.2184,
+      "content_accuracy": 0.4091,
+      "joint_f1": 0.0893,
+      "content_kind": "gpt_judge",
+      "used_gpt_judge": true
+    }
+  },
+  "explicit_target_grounding": {
+    "tau_rel": 0.234903,
+    "tau_den": 0.6,
+    "policy": "explicit_target_grounding_0",
+    "calibration_metrics": {
+      "n": 2,
+      "tp_time": 1,
+      "tp_content": 0,
+      "fp": 0,
+      "fn": 1,
+      "content_scored": 1,
+      "time_precision": 1.0,
+      "time_recall": 0.5,
+      "time_f1": 0.6667,
+      "content_accuracy": 0.0,
+      "joint_f1": 0.0,
+      "content_kind": "position",
+      "used_gpt_judge": false
+    }
+  },
+  "instant_event_alert": {
+    "tau_rel": 0.313182,
+    "tau_den": 0.5,
+    "policy": "instant_event_alert_0",
+    "calibration_metrics": {
+      "n": 7,
+      "tp_time": 3,
+      "tp_content": 3,
+      "fp": 14,
+      "fn": 4,
+      "content_scored": 3,
+      "time_precision": 0.1765,
+      "time_recall": 0.4286,
+      "time_f1": 0.25,
+      "content_accuracy": 1.0,
+      "joint_f1": 0.25,
+      "content_kind": "time_only",
+      "used_gpt_judge": false
+    }
+  },
+  "realtime_state_monitor": {
+    "tau_rel": 0.257871,
+    "tau_den": 0.5,
+    "policy": "realtime_state_monitor_3",
+    "calibration_metrics": {
+      "n": 28,
+      "tp_time": 63,
+      "tp_content": 29,
+      "fp": 212,
+      "fn": 62,
+      "content_scored": 63,
+      "time_precision": 0.2291,
+      "time_recall": 0.504,
+      "time_f1": 0.315,
+      "content_accuracy": 0.4603,
+      "joint_f1": 0.145,
+      "content_kind": "state",
+      "used_gpt_judge": false
+    }
+  },
+  "semantic_condition_alert": {
+    "tau_rel": 0.303875,
+    "tau_den": 0.5,
+    "policy": "semantic_condition_alert_0",
+    "calibration_metrics": {
+      "n": 7,
+      "tp_time": 5,
+      "tp_content": 5,
+      "fp": 13,
+      "fn": 17,
+      "content_scored": 5,
+      "time_precision": 0.2778,
+      "time_recall": 0.2273,
+      "time_f1": 0.25,
+      "content_accuracy": 1.0,
+      "joint_f1": 0.25,
+      "content_kind": "time_only",
+      "used_gpt_judge": false
+    }
+  },
+  "sequential_step_instruction": {
+    "tau_rel": 0.188515,
+    "tau_den": 0.5,
+    "policy": "sequential_step_instruction_3",
+    "calibration_metrics": {
+      "n": 29,
+      "tp_time": 96,
+      "tp_content": 26,
+      "fp": 155,
+      "fn": 62,
+      "content_scored": 96,
+      "time_precision": 0.3825,
+      "time_recall": 0.6076,
+      "time_f1": 0.4694,
+      "content_accuracy": 0.2708,
+      "joint_f1": 0.1271,
+      "content_kind": "gpt_judge",
+      "used_gpt_judge": true
+    }
+  },
+  "snapshot_counting": {
+    "tau_rel": 0.260982,
+    "tau_den": 0.5,
+    "policy": "snapshot_counting_3",
+    "calibration_metrics": {
+      "n": 14,
+      "tp_time": 6,
+      "tp_content": 2,
+      "fp": 44,
+      "fn": 8,
+      "content_scored": 6,
+      "time_precision": 0.12,
+      "time_recall": 0.4286,
+      "time_f1": 0.1875,
+      "content_accuracy": 0.3333,
+      "joint_f1": 0.0625,
+      "content_kind": "count",
+      "used_gpt_judge": false
+    }
+  }
+}

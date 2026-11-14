@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "sample": "sequential_step_instruction::dkDUFlHIh64::258",
+  "calls": [
+    {
+      "t_sec": 0,
+      "raw": "The person holds a folded white paper in front of them with both hands, preparing to begin the trick.",
+      "n_tokens": 22,
+      "kept_visual": 117
+    }
+  ],
+  "predictions": [
+    {
+      "t_sec": 0,
+      "raw": "The person holds a folded white paper in front of them with both hands, preparing to begin the trick."
+    }
+  ],
+  "seconds": 2.7893738746643066
+}

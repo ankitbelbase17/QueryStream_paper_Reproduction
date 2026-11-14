@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "cases": [
+    "wrong-content-denominator",
+    "judge-pass-3",
+    "tolerance-boundary",
+    "strict-RTAR-gates",
+    "official-fragment-merging",
+    "disjoint-sample-split",
+    "official-history-state-vocab"
+  ]
+}
